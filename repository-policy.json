@@ -1,0 +1,16 @@
+{
+  "formatVersion": 1,
+  "purpose": "Publication preparation policy; not a signed runtime update contract",
+  "repository": "https://github.com/EspalierLin/ai-tool-releases",
+  "defaultDecision": "deny",
+  "repositoryContains": "release documentation and indexes",
+  "assetsStorage": "GitHub Releases attached to tags targeting the tool branch",
+  "ordinaryGitBinaryAssets": false,
+  "internalPluginsAllowed": false,
+  "publicPluginsRequireExplicitDesignation": true,
+  "unknownArtifactsAllowed": false,
+  "reviewMaterialsTracked": false,
+  "publishedVersionReplacementAllowed": false,
+  "currentState": "prepared_for_review",
+  "approvedReleaseAssets": []
+}

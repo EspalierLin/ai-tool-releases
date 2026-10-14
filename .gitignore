@@ -1,0 +1,25 @@
+# Private review material is local only.
+/_review/
+/.staging/
+# Binary downloads are Release assets, never ordinary Git blobs.
+*.exe
+*.msi
+*.dmg
+*.app/
+*.zip
+*.tar
+*.tar.gz
+# No credentials, runtime data, dependencies or user projects.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+auth.json
+credentials.json
+*.log
+*.elproject/
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
