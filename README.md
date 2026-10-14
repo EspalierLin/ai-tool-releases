@@ -12,13 +12,13 @@
 
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
-| Mac · Apple 芯片 | 0.2.1（1088） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/101-batch-image-foundry%2Fv0.2.1-build.1088-macos-arm64/Batch-Image-Foundry-0.2.1-1088-macOS-arm64.dmg) |
+| Mac · Apple 芯片 | 0.2.1（1089） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/101-batch-image-foundry%2Fv0.2.1-build.1089-macos-arm64/Batch-Image-Foundry-0.2.1-1089-macOS-arm64.dmg) |
 | Windows x64 | 0.2.1（1087） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/101-batch-image-foundry%2Fv0.2.1-build.1087-windows-x64/Batch-Image-Foundry-0.2.1-1087-Windows-x64.exe) |
 
 <details>
 <summary>安装包校验（SHA-256）</summary>
 
-- Mac · Apple 芯片：`3dadabae5962e2f26440ae5af819a8682c56ab73a649a39ca297f4f3410dddb2`
+- Mac · Apple 芯片：`c4ae888f17a95b087d18cd2ff6c5d0be5ba38b7bb792e9c925e37bffb7a465d0`
 - Windows x64：`144fe4be6deb9172ac3c8e431a1848a2c18288dff5a6e7b3d6a483ec9e2e15fe`
 
 </details>
