@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-batch-image-foundry-3",
-  "manifest_version": 3,
+  "manifest_id": "update-batch-image-foundry-6",
+  "manifest_version": 6,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,38 +9,38 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-14T17:34:51.333111+00:00",
-  "expires_at": "2027-01-12T17:34:51.333111+00:00",
+  "published_at": "2026-10-14T18:07:49.928989+00:00",
+  "expires_at": "2027-01-12T18:07:49.928989+00:00",
   "component": {
     "component_id": "batch-image-foundry",
     "kind": "workspace",
     "product_uid": "skill_9322961a0d9540afa4ecd754b6246beb",
     "version": "0.2.1",
-    "build_number": 1087,
+    "build_number": 1089,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.2.1 (1087)",
-      "summary": "Batch Image Foundry 0.2.1（1087）Windows x64 公开预览。支持 Windows 10+。安装 EXE 包含 WebView2 和 Python 环境、公开签名渠道的检查更新及下载验签功能。最终 EXE 完整性及 3624 个文件摘要回读通过；最新构建尚未在 Windows 实机安装验收，安装程序未使用代码签名证书。工程、账号与已装插件外置保留；不附带私有公司插件。"
+      "title": "0.2.1 (1089)",
+      "summary": "Batch Image Foundry 0.2.1（1089）Windows x64 公开预览。支持 Windows 10+，安装包包含固定 Python 和 WebView2。内置公开签名渠道，支持检查、下载验签及安装交接，修正已是最新版时误报下载失败。保留账号、外置工程和已装插件，不附带私人公司插件。当前安装程序未代码签名；最新构建的 Windows 实机安装、升级及恢复仍待验收。"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "101-batch-image-foundry/v0.2.1-build.1087-windows-x64"
+    "seed": "101-batch-image-foundry/v0.2.1-build.1089-windows-x64"
   },
   "artifact": {
     "platform": "windows",
     "architecture": "x86_64",
     "format": "exe",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/101-batch-image-foundry%2Fv0.2.1-build.1087-windows-x64/Batch-Image-Foundry-0.2.1-1087-Windows-x64.exe",
-    "size_bytes": 414882855,
-    "sha256": "sha256:144fe4be6deb9172ac3c8e431a1848a2c18288dff5a6e7b3d6a483ec9e2e15fe",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/101-batch-image-foundry%2Fv0.2.1-build.1089-windows-x64/Batch-Image-Foundry-0.2.1-1089-Windows-x64.exe",
+    "size_bytes": 414591780,
+    "sha256": "sha256:6fa7796900a60f5cebaa0dcdc5fed27753843c5d15f630d941eae732247febbd",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-macos-1",
       "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
-      "signature_digest": "sha256:2b96933492986b6cffe6710fa42d5481781516a713c1faa37f95521cfd719d61"
+      "signature_digest": "sha256:ae7cef0697d2d003c74f9258dcc09fa472f6e41c9060d003820a7a5a811777a3"
     },
-    "installed_size_bytes": 1358633329
+    "installed_size_bytes": 1358636310
   },
   "compatibility": {},
   "install": {
@@ -55,7 +55,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-macos-1",
     "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
-    "payload_digest": "sha256:8389bf9123d6190c3d614fba140128b722956ba968e0f3984c8cd429757dd1c9",
-    "value": "lv4iq3oOIwd0cqS9SPGqwUj25mSV/PEUyW2H+Z1khOg4YL+tI7HgHxph30paiHVkpMrvASKrcf/+IJZ0DfqlAQ=="
+    "payload_digest": "sha256:f1449a191ba6b08ceab22e0b920a3e790d3b977940311c8eac1f46351d0c819a",
+    "value": "z0B+n7KVrZPRxDoLLZMoWF/t+i1vJYW7QjLNz4OYNMhoklcZ+ECnGUWEG2r8KatzFoUsBjVwicreyqpH260EDw=="
   }
 }
