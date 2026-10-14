@@ -27,12 +27,14 @@
 
 支持 Windows 10+（x64）和 macOS 14+（Apple 芯片）。
 
-当前为公开预览：Mac 尚未完成 Developer ID 公证，Windows 安装包尚未代码签名，系统可能提示安全确认。Windows 最新构建已通过包校验和匿名下载验签，实机安装／升级仍待验收。
+当前为公开预览：Mac 尚未完成 Developer ID 公证，Windows 安装包尚未代码签名；系统可能提示安全确认。Windows 最新构建的实机安装／升级仍待验收。
 
 ## 安装与使用
 
 Windows 下载后运行安装 EXE；Mac 打开 DMG，将应用拖入“应用程序”。使用自己的 AI 账号，创建或打开 `.elproject` 工程后开始工作。
 
-更新入口在“设置 → 检查更新”。Mac 下载更新包后手动安装；工程、图片和已安装插件保留。公司插件按其独立授权安装。
+Mac 若被系统阻止打开，请核对本页安装包校验值，并按 [Apple 官方说明](https://support.apple.com/zh-cn/102445)处理。
+
+旧测试包请先手动安装本页最新版一次。更新入口在“设置 → 检查更新”。Mac 下载更新包后手动安装；工程、图片和已安装插件保留。公司插件按其独立授权安装。
 
 [返回工具目录](https://github.com/EspalierLin/ai-tool-releases)
