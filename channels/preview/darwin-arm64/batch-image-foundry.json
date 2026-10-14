@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-batch-image-foundry-2",
-  "manifest_version": 2,
+  "manifest_id": "update-batch-image-foundry-4",
+  "manifest_version": 4,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,36 +9,36 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-14T17:28:31.220883+00:00",
-  "expires_at": "2027-01-12T17:28:31.220883+00:00",
+  "published_at": "2026-10-14T17:41:59.598595+00:00",
+  "expires_at": "2027-01-12T17:41:59.598595+00:00",
   "component": {
     "component_id": "batch-image-foundry",
     "kind": "workspace",
     "product_uid": "skill_9322961a0d9540afa4ecd754b6246beb",
     "version": "0.2.1",
-    "build_number": 1087,
+    "build_number": 1088,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.2.1 (1087)",
-      "summary": "Batch Image Foundry 0.2.1（1087）Mac 公开预览。支持 macOS 14+ Apple 芯片。包含连接公开签名渠道的检查更新；Mac 下载验签后手动安装。已验证镜像与完整 App 资源、ad-hoc 签名及原生宿主。本包未完成 Developer ID 公证。工程、账号与本人已装插件外置保留；不附带私有公司插件。修复上一构建的 GitHub 附件下载地址。"
+      "title": "0.2.1 (1088)",
+      "summary": "Batch Image Foundry 0.2.1（1088）Mac 公开预览。支持 macOS 14+ Apple 芯片。重新编译包含当前桥接代码的原生宿主，支持检查公开签名渠道、下载验签并保存安装包后手动安装。账号、外置工程和已装插件保留；不附带私有公司插件。本包采用 ad-hoc 签名，未完成 Developer ID 公证。"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "101-batch-image-foundry/v0.2.1-build.1087-macos-arm64"
+    "seed": "101-batch-image-foundry/v0.2.1-build.1088-macos-arm64"
   },
   "artifact": {
     "platform": "darwin",
     "architecture": "arm64",
     "format": "dmg",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/101-batch-image-foundry%2Fv0.2.1-build.1087-macos-arm64/Batch-Image-Foundry-0.2.1-1087-macOS-arm64.dmg",
-    "size_bytes": 258983927,
-    "sha256": "sha256:0d9cd27d051c80ac05e72816468a79e2e2121f547c10c5f528140ade1938fe14",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/101-batch-image-foundry%2Fv0.2.1-build.1088-macos-arm64/Batch-Image-Foundry-0.2.1-1088-macOS-arm64.dmg",
+    "size_bytes": 260269575,
+    "sha256": "sha256:3dadabae5962e2f26440ae5af819a8682c56ab73a649a39ca297f4f3410dddb2",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-macos-1",
       "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
-      "signature_digest": "sha256:6fa57399b6ec3262021982ccfda36c8cb3cf05f569a5bfcd85e357bd26798f1a"
+      "signature_digest": "sha256:9a5cff8e2f6e29b5684b927113e71a80492422f50bc8d9c86a84b13b167f99cb"
     }
   },
   "compatibility": {},
@@ -54,7 +54,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-macos-1",
     "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
-    "payload_digest": "sha256:984284b240e7b77891e319a671c34d13ac481cd297bf1b416ef13ea2de051858",
-    "value": "+QdXfP/jnA9eDAOyCEh+XwcEkStK1DlitveEY5tdaLFJkIRQqaXAQbwgQjvkzV/Lj7GqXjjmZcuda4anAAc6Bw=="
+    "payload_digest": "sha256:e986135569dc470789e4096d2140365fbf1889bc95aa31ddfb9dcd368489256d",
+    "value": "1Aun+VuD6PMNbiHpfxbTfS4/ZY84eA82fhnCJPqWMtPOJhLb6vnghrvzTNvvYyna1n3XW/i71EDs8qC3a7spCA=="
   }
 }
