@@ -27,6 +27,8 @@
 
 支持 Windows 10+（x64）和 macOS 14+（Apple 芯片）。
 
+当前为公开预览：Mac 尚未完成 Developer ID 公证，Windows 安装包尚未代码签名，系统可能提示安全确认。Windows 最新构建已通过包校验和匿名下载验签，实机安装／升级仍待验收。
+
 ## 安装与使用
 
 Windows 下载后运行安装 EXE；Mac 打开 DMG，将应用拖入“应用程序”。使用自己的 AI 账号，创建或打开 `.elproject` 工程后开始工作。
