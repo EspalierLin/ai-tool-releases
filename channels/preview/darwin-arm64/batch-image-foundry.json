@@ -1,0 +1,60 @@
+{
+  "schema": "ze.update-manifest.v3",
+  "manifest_id": "update-batch-image-foundry-1",
+  "manifest_version": 1,
+  "scope": {
+    "series_id": "el",
+    "organization_id": "independent-publisher",
+    "target_id": "batch-image-foundry-public"
+  },
+  "channel": "preview",
+  "state": "active",
+  "published_at": "2026-10-14T17:04:23.642305+00:00",
+  "expires_at": "2027-01-12T17:04:23.642305+00:00",
+  "component": {
+    "component_id": "batch-image-foundry",
+    "kind": "workspace",
+    "product_uid": "skill_9322961a0d9540afa4ecd754b6246beb",
+    "version": "0.2.1",
+    "build_number": 1086,
+    "severity": "recommended",
+    "release_notes": {
+      "title": "0.2.1 (1086)",
+      "summary": "Batch Image Foundry 0.2.1（1086），macOS 14+ / Apple 芯片公开预览。\n\n已完成安装镜像、完整 App 清单、签名完整性、本机安装启动及正常退出检查。当前采用 ad-hoc 签名，尚未完成 Developer ID 公证。\n\n包内提供“设置 → 检查更新”，使用本仓库的 preview 签名渠道；Mac 下载验签后手动安装。保留外置工程、账号与已安装插件。Hupo 私有插件不随公开包分发。"
+    }
+  },
+  "rollout": {
+    "percentage": 100,
+    "seed": "101-batch-image-foundry/v0.2.1-build.1086-macos-arm64"
+  },
+  "artifact": {
+    "platform": "darwin",
+    "architecture": "arm64",
+    "format": "dmg",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/101-batch-image-foundry%2Fv0.2.1-build.1086-macos-arm64/Batch%20Image%20Foundry-0.2.1-1086-macOS-arm64.dmg",
+    "size_bytes": 259480323,
+    "sha256": "sha256:03450b849ae321f30ed5b0cf0267d639ee72af647df43f8b33c1efd82f6d8439",
+    "signature": {
+      "algorithm": "ed25519",
+      "key_id": "publisher-macos-1",
+      "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
+      "signature_digest": "sha256:1e60ba786a4be0811b695818137d5a6b5d932a78b4a95c6d88123507dd6f8d61"
+    }
+  },
+  "compatibility": {},
+  "install": {
+    "restart": "required",
+    "safe_point": "no-unsaved-work",
+    "estimated_seconds": 60,
+    "migration_confirmation": "not-required",
+    "strategy": "manual-container"
+  },
+  "project_migrations": [],
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "publisher-macos-1",
+    "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
+    "payload_digest": "sha256:4b85035e029f71ac819b1066665d9d97a797c2f2396305ef624a1f318cd19db7",
+    "value": "Eb4ANMVHbnyYA3BwWylZQIxi3BB/WoCm08lQXUKNmFjd+V9f46kDfXvNTh0h3V47HclSR65pAqboFPaUYEeiDw=="
+  }
+}
