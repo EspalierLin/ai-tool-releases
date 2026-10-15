@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-pixel-texture-painter-1",
-  "manifest_version": 1,
+  "manifest_id": "update-pixel-texture-painter-3",
+  "manifest_version": 3,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,36 +9,36 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-15T05:46:39.559552+00:00",
-  "expires_at": "2027-01-13T05:46:39.559552+00:00",
+  "published_at": "2026-10-15T08:05:33.496501+00:00",
+  "expires_at": "2027-01-13T08:05:33.496501+00:00",
   "component": {
     "component_id": "pixel-texture-painter",
     "kind": "workspace",
     "product_uid": "skill_d624d6b5f3084aa98eb64e356343b516",
-    "version": "0.4.0",
-    "build_number": 1007,
+    "version": "0.4.1",
+    "build_number": 1008,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.4.0 (1007)",
-      "summary": "3D Asset Shader 0.4.0 / 1007，公开 preview 预览分发。\n\n- 新增六正交立方体展开投影与 UV 补绘组合管线，四个侧面同排，上下面贴合，保留原 UV。\n- 从 Base Color 分别生成辅助材质通道，每个通道可设置提示词、参考图与独立预览开关。\n- 内置七通道分层拱门 Demo，可继续绘画并另存工程。\n- 调整主题色与背景渐变，使其跟随产品 Logo。\n\n本次上传沿用本地交付的原始 1007 安装包。安装包来源冻结提交：8decfe8eb5ca51f1d6857311d09e269609b2f84c。本版通过工具发布页面手动下载更新；新增更新源配置尚未包含在这些原包中。\n\nMac 为内部 ad-hoc 签名、未公证；Windows 未签名。Mac 已实际安装并打开 Demo，并完成过编辑、保存和重开。本批 Windows 实机运行、最低系统与正式本人账号的新版收费 AI 生成仍未验收。此预览不授予 stable 资格。\n"
+      "title": "0.4.1 (1008)",
+      "summary": "修复拖入 auth.json 返回 Method Not Allowed：恢复公共授权文件导入接口。\n修复本人 ChatGPT 登录、授权验证及生成过程的代理/证书配置丢失，Windows 可继承已有手动系统代理。\n增强六正交材质输入：同坐标轮廓结构线、几何法线和深度参考，保留四侧同排、上下贴合及原 UV。\n生成过程明确区分程序参考、AI 原图和投影/补绘结果；不增加底色的两次 AI 调用。\n包含签名更新来源。保留原 Demo 底色与可编辑图层。\n公开预览：Mac ad-hoc/未公证；Windows 未签名，本次未在报错 Windows 电脑实测，实际账号生成质量单独验收。\n"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "pixel-texture-painter/v0.4.0-build.1007-macos-arm64"
+    "seed": "pixel-texture-painter/v0.4.1-build.1008-macos-arm64"
   },
   "artifact": {
     "platform": "darwin",
     "architecture": "arm64",
     "format": "dmg",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/pixel-texture-painter%2Fv0.4.0-build.1007-macos-arm64/3D-Asset-Shader-0.4.0-1007-macOS-arm64.dmg",
-    "size_bytes": 265159689,
-    "sha256": "sha256:160efec7eafbe3689e6ddcce15a1483c16767d3ac71b83ef45ed7ed8a46b57da",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/pixel-texture-painter%2Fv0.4.1-build.1008-macos-arm64/3D-Asset-Shader-0.4.1-1008-macOS-arm64.dmg",
+    "size_bytes": 266161604,
+    "sha256": "sha256:e37a79e9587931536836b483223f9b5296dca61bbde47bc693c73eeea2c3b45d",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-1",
       "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-      "signature_digest": "sha256:fab9228486aa0af5275dfbddf931b1d8cc2dbc0011ab536428470c3dfffc858f"
+      "signature_digest": "sha256:4033d272ceef9b85c58cfe64e93b096a4f013c4ad7d83753918b4967ddbca232"
     }
   },
   "compatibility": {},
@@ -54,7 +54,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-1",
     "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-    "payload_digest": "sha256:cc5f3cb3b5eb25e9965ab85caa771167381658fa4607ac11f20efcb9871cc08f",
-    "value": "/M5Xn5e/aOzZTP44Oz3kdQLAAAR2lWVB00vcNLNncvUgoGtAvN3HmmREIr6FQYXIY2TIFWdKLRfWbVM3zqtOBA=="
+    "payload_digest": "sha256:020ebf568586dddf6e3855363e081dea02847b5c70f31aebf452f29353e31e8f",
+    "value": "hGV+nlHNnwfYy8r8bz15TlTdhFEmKG8BdKZFBm6U/sAhV0gLbW0W9sRh9bdyujXoxoufMXg3jk8rz3oY9dSsDQ=="
   }
 }
