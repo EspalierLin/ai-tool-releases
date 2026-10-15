@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-pixel-texture-painter-4",
-  "manifest_version": 4,
+  "manifest_id": "update-pixel-texture-painter-8",
+  "manifest_version": 8,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,38 +9,38 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-15T08:11:42.684887+00:00",
-  "expires_at": "2027-01-13T08:11:42.684887+00:00",
+  "published_at": "2026-10-15T11:15:30.175035+00:00",
+  "expires_at": "2027-01-13T11:15:30.175035+00:00",
   "component": {
     "component_id": "pixel-texture-painter",
     "kind": "workspace",
     "product_uid": "skill_d624d6b5f3084aa98eb64e356343b516",
-    "version": "0.4.1",
-    "build_number": 1008,
+    "version": "0.4.2",
+    "build_number": 1009,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.4.1 (1008)",
-      "summary": "修复拖入 auth.json 返回 Method Not Allowed：恢复公共授权文件导入接口。\n修复本人 ChatGPT 登录、授权验证及生成过程的代理/证书配置丢失，Windows 可继承已有手动系统代理。\n增强六正交材质输入：同坐标轮廓结构线、几何法线和深度参考，保留四侧同排、上下贴合及原 UV。\n生成过程明确区分程序参考、AI 原图和投影/补绘结果；不增加底色的两次 AI 调用。\n包含签名更新来源。保留原 Demo 底色与可编辑图层。\n公开预览：Mac ad-hoc/未公证；Windows 未签名，本次未在报错 Windows 电脑实测，实际账号生成质量单独验收。\n"
+      "title": "0.4.2 (1009)",
+      "summary": "Meshpalier 0.4.2 / 1009 · 预览版\n\nAI 生成改为在当前作品上继续编辑：Base Color 的六正交绘制和 UV 补绘，以及所有辅助通道，均携带当前合成图，包括人工笔触与已采用 AI 图层。投影未覆盖处保留原图；候选底稿已变化时显示提示，采用仍新增可撤销图层。\n\n补齐更新入口与服务接线，并修复原生启动链丢弃代理和自定义 CA 配置的问题。随包保留原可编辑拱门 Demo。用户工程与账号身份保持原值。\n\n本版仅为公开预览：Mac ad-hoc 签名、未公证；Windows 安装器未签名且本轮未实机联网验收。Mac 随包启动/工程重开、两平台资源与安装器内容已核对；本轮没有调用在线 AI。旧 1007/1008 缺更新接线，需要手动下载安装本版一次。1009 的 Mac 更新先下载 DMG 再手动替换；Windows 沿原生安装器交接，实际升级仍待 Windows 实机确认。\n"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "pixel-texture-painter/v0.4.1-build.1008-windows-x64"
+    "seed": "meshpalier/v0.4.2-build.1009-windows-x64"
   },
   "artifact": {
     "platform": "windows",
     "architecture": "x86_64",
     "format": "exe",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/pixel-texture-painter%2Fv0.4.1-build.1008-windows-x64/3D-Asset-Shader-0.4.1-1008-Windows-x64.exe",
-    "size_bytes": 427594438,
-    "sha256": "sha256:074778c7c3ddb23ccd6ccb0d0bd3ffad37599d96e3f55dd04d0d1a0cd01b7ba5",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.2-build.1009-windows-x64/Meshpalier-0.4.2-1009-Windows-x64.exe",
+    "size_bytes": 428532923,
+    "sha256": "sha256:33be8f9a51cce9733b26ccb7d4e590ce8347a0230a25542827e14f6cd4b995d0",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-1",
       "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-      "signature_digest": "sha256:8a805d429582f1ebdc3fb760c6ea3bc8f3d59e4ff9fb748ec0346eef29c87adc"
+      "signature_digest": "sha256:f0701f746033394692d764d9a12593b9752225949de9ca60a48e42ad83586949"
     },
-    "installed_size_bytes": 1344493853
+    "installed_size_bytes": 1347237498
   },
   "compatibility": {},
   "install": {
@@ -55,7 +55,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-1",
     "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-    "payload_digest": "sha256:57bd594de501f8acc3a9d01fdd759d33bc87e34f1b4f8ccfff2f7f27f691714f",
-    "value": "ykg5lNrea6Gl1c2nQ6EH2TU98SYw/NyqHkha4mfSaicAb4WYVFWtXHY1hmsbh2tjA5ttdChrBz4XS4SxULQfBQ=="
+    "payload_digest": "sha256:51c30e83752bcd47579746bbbeea110a964f151ffe9117c456a98556c83e89d6",
+    "value": "R1ytLxmaACJvhisSfDWG3MOMoaPDCFbr01qgpq3k1ViqQ8uLsoAHW1Yg6Y4HlFPS3kZVtOOHcUzY6D+/QI2ABg=="
   }
 }
