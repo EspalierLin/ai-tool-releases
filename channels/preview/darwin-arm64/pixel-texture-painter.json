@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-pixel-texture-painter-7",
-  "manifest_version": 7,
+  "manifest_id": "update-pixel-texture-painter-9",
+  "manifest_version": 9,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,36 +9,36 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-15T11:15:29.943816+00:00",
-  "expires_at": "2027-01-13T11:15:29.943816+00:00",
+  "published_at": "2026-10-15T13:09:22.026680+00:00",
+  "expires_at": "2027-01-13T13:09:22.026680+00:00",
   "component": {
     "component_id": "pixel-texture-painter",
     "kind": "workspace",
     "product_uid": "skill_d624d6b5f3084aa98eb64e356343b516",
-    "version": "0.4.2",
-    "build_number": 1009,
+    "version": "0.4.3",
+    "build_number": 1010,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.4.2 (1009)",
-      "summary": "Meshpalier 0.4.2 / 1009 · 预览版\n\nAI 生成改为在当前作品上继续编辑：Base Color 的六正交绘制和 UV 补绘，以及所有辅助通道，均携带当前合成图，包括人工笔触与已采用 AI 图层。投影未覆盖处保留原图；候选底稿已变化时显示提示，采用仍新增可撤销图层。\n\n补齐更新入口与服务接线，并修复原生启动链丢弃代理和自定义 CA 配置的问题。随包保留原可编辑拱门 Demo。用户工程与账号身份保持原值。\n\n本版仅为公开预览：Mac ad-hoc 签名、未公证；Windows 安装器未签名且本轮未实机联网验收。Mac 随包启动/工程重开、两平台资源与安装器内容已核对；本轮没有调用在线 AI。旧 1007/1008 缺更新接线，需要手动下载安装本版一次。1009 的 Mac 更新先下载 DMG 再手动替换；Windows 沿原生安装器交接，实际升级仍待 Windows 实机确认。\n"
+      "title": "0.4.3 (1010)",
+      "summary": "修复覆盖安装后旧版工程和示例重新打开时报 mutation_policy declaration is invalid。旧 AI 记录字段经正式迁移后再安装完整权限，保留模型、分层材质、人工绘画和既有 AI 记录；连续重启不重复改写。无需清缓存或重建工程。\n\n公开预览：Mac ad-hoc／未公证，Windows 未商业签名；本次未在 Windows 目标机实测安装。\n"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "meshpalier/v0.4.2-build.1009-macos-arm64"
+    "seed": "meshpalier/v0.4.3-build.1010-macos-arm64"
   },
   "artifact": {
     "platform": "darwin",
     "architecture": "arm64",
     "format": "dmg",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.2-build.1009-macos-arm64/Meshpalier-0.4.2-1009-macOS-arm64.dmg",
-    "size_bytes": 266238099,
-    "sha256": "sha256:1a8c03ef5eb8bd3e908f2a9d2ce1777641ed018ba3bd280ef75f0155d9d591f3",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.3-build.1010-macos-arm64/Meshpalier-0.4.3-1010-macOS-arm64.dmg",
+    "size_bytes": 266329457,
+    "sha256": "sha256:bdb6af325006e9efa322ef264de1eadb2e0500c5ff6fd927550ae93e0522d2f7",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-1",
       "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-      "signature_digest": "sha256:a3c4705e17270fcf1e89574773c948c4f4072fc93d65e67bf9e9047ae5f93c91"
+      "signature_digest": "sha256:0a30022896472b7288607d0ea4dc36ceecd15749c27ded30f4d64dbd5c235fb3"
     }
   },
   "compatibility": {},
@@ -54,7 +54,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-1",
     "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-    "payload_digest": "sha256:871e694d9c0a359b6b28151ada58cf65fc148bc96f25b21b0b81916067b23b03",
-    "value": "8JI9zN5AqJf0M/Zj263P2YUH0RKbH6t9Tpn/fBqh3W6nu8cdhqOB7zI7szHFDePhYueJUF28YVyeT3otXmDTAg=="
+    "payload_digest": "sha256:671d760591d8b320f08988ef74deb10f3a6403862c317554114150c24be4e13d",
+    "value": "/u4OrPt6AkLOuRf+lotniZ6/3OGGeY4bBUEMA38b03RNBAgTkRhCOdcuUIOZNFM5g5S2jE54RlXmg5CrWr9zCQ=="
   }
 }
