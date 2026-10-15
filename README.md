@@ -7,7 +7,18 @@
 **0.4.0 / 1007 · Preview 预览版**。Mac Apple Silicon 和 Windows x64 分别提供安装包。
 
 <!-- release-downloads:start -->
-安装包尚未发布。
+
+| 系统 / 组件 | 版本 | 下载 |
+|---|---|---|
+| Mac · Apple 芯片 | 0.4.0（1007） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/pixel-texture-painter%2Fv0.4.0-build.1007-macos-arm64/3D-Asset-Shader-0.4.0-1007-macOS-arm64.dmg) |
+
+<details>
+<summary>下载文件校验（SHA-256）</summary>
+
+- Mac · Apple 芯片：`160efec7eafbe3689e6ddcce15a1483c16767d3ac71b83ef45ed7ed8a46b57da`
+
+</details>
+
 <!-- release-downloads:end -->
 
 ## 可以做什么
