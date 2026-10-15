@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-pixel-texture-painter-12",
-  "manifest_version": 12,
+  "manifest_id": "update-pixel-texture-painter-13",
+  "manifest_version": 13,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,38 +9,38 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-15T19:17:25.095438+00:00",
-  "expires_at": "2027-01-13T19:17:25.095438+00:00",
+  "published_at": "2026-10-15T19:58:21.643560+00:00",
+  "expires_at": "2027-01-13T19:58:21.643560+00:00",
   "component": {
     "component_id": "pixel-texture-painter",
     "kind": "workspace",
     "product_uid": "skill_d624d6b5f3084aa98eb64e356343b516",
     "version": "0.4.4",
-    "build_number": 1016,
+    "build_number": 1018,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.4.4 (1016)",
-      "summary": "# Meshpalier 0.4.4 (1016) · Windows 公开预览\n\n修复 Windows 文件账本误判导致示例无法打开，保留已有工程、账本与账号数据。\n\n未保存绘画可以直接另存为独立工程；冻结物体、纹理、通道与图层。修复空闲结束笔触造成的另存误报，同时保护另存期间真正新增的输入。中文和空格路径、原生取消、普通保存与 GLB 导出已在 Windows 安装版验证。\n\n修复原生窗口关闭轮询占用更新互斥、导致已下载并验签的更新被误判为取消的问题。更新继续通过草稿协调与确切清单验证，在新版本健康确认后收尾本次安装事务。包含旧桥接缺陷的版本如仍提示安装取消，请运行本版安装器完成一次覆盖升级；已有作品和安装目录中的非受管文件保留。\n\n运行源码：102-pixel-texture-painter @ d6164c83；Package @ c9404ca4。共享修复已按九标准精确选源、source-strict 组合及正式采用。完整的安装、更新与清理实测记录在源码分支 docs/DESKTOP_DELIVERY.md。\n\n本次仅发布 Windows x64 公开预览。继续使用既有 publisher-1 更新签名身份；安装器尚无 Windows Authenticode 签名。Mac 本次未构建或运行验证，本轮未执行真实 AI 生图。\n"
+      "title": "0.4.4 (1018)",
+      "summary": "# Meshpalier 0.4.4 (1018) · Windows 公开预览\n\n修复 Windows 文件账本误判导致示例无法打开；未保存绘画可直接另存为独立工程，保留完整物体、纹理、通道与图层。中文和空格路径、原生取消、普通保存、冷重开及 GLB 导出已在 Windows 安装版验证。\n\n更新链路修复包含两部分：空闲窗口关闭轮询不再阻塞安装协调；独立更新助手采用 Windows 扩展路径，完整复制内嵌 Python 的深层文件与许可证，并沿相同路径边界进行健康回执与回收。实际助手已完成独立启动、重复验签、明确取消及清理的验证。\n\n含旧更新缺陷的版本如仍提示安装取消或交接失败，请运行本版安装器完成一次覆盖升级。保留已有工程、账号、账本和安装目录中的非受管文件；正常更新通过健康确认后清理本次事务、助手和已消费下载。未建立交接的历史缓存与未知文件不会被任意扫描删除。\n\n运行源码：102-pixel-texture-painter @ 0a7c410c；Package @ c115f614。共享修改经过九标准精确选源、source-strict 组合及正式采用。完整安装、窗口更新及清理实测见源码分支 docs/DESKTOP_DELIVERY.md。\n\n本次为 Windows x64 公开预览，沿用 publisher-1 更新签名；安装器尚无 Windows Authenticode 签名。Mac 本次未构建或运行，本轮没有执行真实 AI 生图。\n"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "meshpalier/v0.4.4-build.1016-windows-x64"
+    "seed": "meshpalier/v0.4.4-build.1018-windows-x64"
   },
   "artifact": {
     "platform": "windows",
     "architecture": "x86_64",
     "format": "exe",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.4-build.1016-windows-x64/Meshpalier-0.4.4-1016-Windows-x64.exe",
-    "size_bytes": 414705918,
-    "sha256": "sha256:eb0535580e6076888bd9581e199cb4703d5338b5ca9f17a7d13c6caa42bf6b22",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.4-build.1018-windows-x64/Meshpalier-0.4.4-1018-Windows-x64.exe",
+    "size_bytes": 414795992,
+    "sha256": "sha256:0633f11ddb659fc51ab0071d6a20d258a692be8a408705a76ef2f88f6f9b5ce4",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-1",
       "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-      "signature_digest": "sha256:8196bbd4beaed1db0d95b80748c35fd8f5d8ea57e92d060239ce3b93f49d1169"
+      "signature_digest": "sha256:e21178bc597de2a9d2a5908dbb8719fd50eb5d50833c16f2e70209daf0acb9f4"
     },
-    "installed_size_bytes": 1301204309
+    "installed_size_bytes": 1301205754
   },
   "compatibility": {},
   "install": {
@@ -55,7 +55,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-1",
     "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-    "payload_digest": "sha256:a6671964baf1da0b616cb494883f7d217265d6ba5d362ca0b380602b7df7f60c",
-    "value": "vFJ/o9absnBwtMTwL7537ie0jO4fumq881cLSqyvg+TPCKwDA0GLDtErdYBjxVsX5jJvntlC/Vat8brsE+M6Dg=="
+    "payload_digest": "sha256:1a542ae4aa67fee2879fba360038bc59e24ea202e611fd13949e3da84d852129",
+    "value": "SZorNBl3ayMlNlguzE2tUu2ZX0b1WKAIiPmdRD6Bv2nVnTlxcVfq2zCjPHJPd7J5QaqOgk3xF5IJQzoWBapyCg=="
   }
 }

@@ -11,13 +11,13 @@
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
 | Mac · Apple 芯片 | 0.4.3（1010） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.3-build.1010-macos-arm64/Meshpalier-0.4.3-1010-macOS-arm64.dmg) |
-| Windows x64 | 0.4.4（1016） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.4-build.1016-windows-x64/Meshpalier-0.4.4-1016-Windows-x64.exe) |
+| Windows x64 | 0.4.4（1018） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.4-build.1018-windows-x64/Meshpalier-0.4.4-1018-Windows-x64.exe) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
 
 - Mac · Apple 芯片：`bdb6af325006e9efa322ef264de1eadb2e0500c5ff6fd927550ae93e0522d2f7`
-- Windows x64：`eb0535580e6076888bd9581e199cb4703d5338b5ca9f17a7d13c6caa42bf6b22`
+- Windows x64：`0633f11ddb659fc51ab0071d6a20d258a692be8a408705a76ef2f88f6f9b5ce4`
 
 </details>
 
