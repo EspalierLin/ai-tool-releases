@@ -1,0 +1,61 @@
+{
+  "schema": "ze.update-manifest.v3",
+  "manifest_id": "update-pixel-texture-painter-2",
+  "manifest_version": 2,
+  "scope": {
+    "series_id": "el",
+    "organization_id": "independent-publisher",
+    "target_id": "pixel-texture-painter-public"
+  },
+  "channel": "preview",
+  "state": "active",
+  "published_at": "2026-10-15T05:46:39.845923+00:00",
+  "expires_at": "2027-01-13T05:46:39.845923+00:00",
+  "component": {
+    "component_id": "pixel-texture-painter",
+    "kind": "workspace",
+    "product_uid": "skill_d624d6b5f3084aa98eb64e356343b516",
+    "version": "0.4.0",
+    "build_number": 1007,
+    "severity": "recommended",
+    "release_notes": {
+      "title": "0.4.0 (1007)",
+      "summary": "3D Asset Shader 0.4.0 / 1007，公开 preview 预览分发。\n\n- 新增六正交立方体展开投影与 UV 补绘组合管线，四个侧面同排，上下面贴合，保留原 UV。\n- 从 Base Color 分别生成辅助材质通道，每个通道可设置提示词、参考图与独立预览开关。\n- 内置七通道分层拱门 Demo，可继续绘画并另存工程。\n- 调整主题色与背景渐变，使其跟随产品 Logo。\n\n本次上传沿用本地交付的原始 1007 安装包。安装包来源冻结提交：8decfe8eb5ca51f1d6857311d09e269609b2f84c。本版通过工具发布页面手动下载更新；新增更新源配置尚未包含在这些原包中。\n\nMac 为内部 ad-hoc 签名、未公证；Windows 未签名。Mac 已实际安装并打开 Demo，并完成过编辑、保存和重开。本批 Windows 实机运行、最低系统与正式本人账号的新版收费 AI 生成仍未验收。此预览不授予 stable 资格。\n"
+    }
+  },
+  "rollout": {
+    "percentage": 100,
+    "seed": "pixel-texture-painter/v0.4.0-build.1007-windows-x64"
+  },
+  "artifact": {
+    "platform": "windows",
+    "architecture": "x86_64",
+    "format": "exe",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/pixel-texture-painter%2Fv0.4.0-build.1007-windows-x64/3D-Asset-Shader-0.4.0-1007-Windows-x64.exe",
+    "size_bytes": 428442465,
+    "sha256": "sha256:07814ad60a4176a8a9c80eaf58737ac2b35249c9e5706a1bc3037c72a7013788",
+    "signature": {
+      "algorithm": "ed25519",
+      "key_id": "publisher-1",
+      "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
+      "signature_digest": "sha256:30519e830454e9ba3658b98db46fab2bf4302d66467d05ea90d4e430f4d40a25"
+    },
+    "installed_size_bytes": 1346953098
+  },
+  "compatibility": {},
+  "install": {
+    "restart": "required",
+    "safe_point": "no-unsaved-work",
+    "estimated_seconds": 60,
+    "migration_confirmation": "not-required",
+    "strategy": "platform-installer"
+  },
+  "project_migrations": [],
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "publisher-1",
+    "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
+    "payload_digest": "sha256:219bc8d9365f65f1d10719c4f37db929d220663622f7c878166dee87cde91aae",
+    "value": "sVDzda+05gWyhfhr1AoMu2qLzz5UiDma2TGmYNOevJRVBlJdWyIzLKuGFttb6uzCPwIZBCp9EUgALBYXFG17BA=="
+  }
+}

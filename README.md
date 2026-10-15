@@ -11,11 +11,13 @@
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
 | Mac · Apple 芯片 | 0.4.0（1007） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/pixel-texture-painter%2Fv0.4.0-build.1007-macos-arm64/3D-Asset-Shader-0.4.0-1007-macOS-arm64.dmg) |
+| Windows x64 | 0.4.0（1007） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/pixel-texture-painter%2Fv0.4.0-build.1007-windows-x64/3D-Asset-Shader-0.4.0-1007-Windows-x64.exe) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
 
 - Mac · Apple 芯片：`160efec7eafbe3689e6ddcce15a1483c16767d3ac71b83ef45ed7ed8a46b57da`
+- Windows x64：`07814ad60a4176a8a9c80eaf58737ac2b35249c9e5706a1bc3037c72a7013788`
 
 </details>
 
