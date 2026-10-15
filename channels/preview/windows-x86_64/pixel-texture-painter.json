@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-pixel-texture-painter-11",
-  "manifest_version": 11,
+  "manifest_id": "update-pixel-texture-painter-12",
+  "manifest_version": 12,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,38 +9,38 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-15T18:32:54.803836+00:00",
-  "expires_at": "2027-01-13T18:32:54.803836+00:00",
+  "published_at": "2026-10-15T19:17:25.095438+00:00",
+  "expires_at": "2027-01-13T19:17:25.095438+00:00",
   "component": {
     "component_id": "pixel-texture-painter",
     "kind": "workspace",
     "product_uid": "skill_d624d6b5f3084aa98eb64e356343b516",
     "version": "0.4.4",
-    "build_number": 1014,
+    "build_number": 1016,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.4.4 (1014)",
-      "summary": "# Meshpalier 0.4.4 · Windows 公开预览\n\n修复 Windows 文件账本误判导致示例无法打开；保留已有工程、账本及账户数据。\n\n未保存的绘画可直接另存为独立工程，完整冻结物体、纹理、通道和图层；修复空闲结束笔触造成的另存误报，并保留另存期间后续输入的保护。\n\n接入一键更新：绑定已验证清单，健康检查通过后完成安装事务，并回收本次下载、辅助运行时及旧安装材料；保留用户作品和安装目录中的非受管文件。\n\n源码：102-pixel-texture-painter @ 924a40fb；共享修复经过九标准精确选源、source-strict 组合及正式采用。\n\n本次为 Windows x64 公开预览，使用既有 publisher-1 更新签名身份；安装器尚无 Windows Authenticode 签名。Mac 本次未构建或运行验证。实际 Windows 验收记录随源分支 docs/DESKTOP_DELIVERY.md 更新。\n"
+      "title": "0.4.4 (1016)",
+      "summary": "# Meshpalier 0.4.4 (1016) · Windows 公开预览\n\n修复 Windows 文件账本误判导致示例无法打开，保留已有工程、账本与账号数据。\n\n未保存绘画可以直接另存为独立工程；冻结物体、纹理、通道与图层。修复空闲结束笔触造成的另存误报，同时保护另存期间真正新增的输入。中文和空格路径、原生取消、普通保存与 GLB 导出已在 Windows 安装版验证。\n\n修复原生窗口关闭轮询占用更新互斥、导致已下载并验签的更新被误判为取消的问题。更新继续通过草稿协调与确切清单验证，在新版本健康确认后收尾本次安装事务。包含旧桥接缺陷的版本如仍提示安装取消，请运行本版安装器完成一次覆盖升级；已有作品和安装目录中的非受管文件保留。\n\n运行源码：102-pixel-texture-painter @ d6164c83；Package @ c9404ca4。共享修复已按九标准精确选源、source-strict 组合及正式采用。完整的安装、更新与清理实测记录在源码分支 docs/DESKTOP_DELIVERY.md。\n\n本次仅发布 Windows x64 公开预览。继续使用既有 publisher-1 更新签名身份；安装器尚无 Windows Authenticode 签名。Mac 本次未构建或运行验证，本轮未执行真实 AI 生图。\n"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "meshpalier/v0.4.4-build.1014-windows-x64"
+    "seed": "meshpalier/v0.4.4-build.1016-windows-x64"
   },
   "artifact": {
     "platform": "windows",
     "architecture": "x86_64",
     "format": "exe",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.4-build.1014-windows-x64/Meshpalier-0.4.4-1014-Windows-x64.exe",
-    "size_bytes": 414628524,
-    "sha256": "sha256:bd2cacaca7a06ad843473bd7f462fd212ac85325408c2f88c3e7bacc874d6257",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.4-build.1016-windows-x64/Meshpalier-0.4.4-1016-Windows-x64.exe",
+    "size_bytes": 414705918,
+    "sha256": "sha256:eb0535580e6076888bd9581e199cb4703d5338b5ca9f17a7d13c6caa42bf6b22",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-1",
       "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-      "signature_digest": "sha256:9d84abcd5f9e3fd140ea6504b3e4dd689aa86b8038787faef5cd1e57c0e84637"
+      "signature_digest": "sha256:8196bbd4beaed1db0d95b80748c35fd8f5d8ea57e92d060239ce3b93f49d1169"
     },
-    "installed_size_bytes": 1301203642
+    "installed_size_bytes": 1301204309
   },
   "compatibility": {},
   "install": {
@@ -55,7 +55,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-1",
     "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-    "payload_digest": "sha256:844ad0fb328bf4ee0d307022ed9790a62c51923a9cda6a0f5275df7b3b61f237",
-    "value": "hmJFBDYGDHZuMjzkYAq11KL6AChVsPWUSp1JNpYERakAgUhQ4WC3gEkCFUl3d+GP612ofObRXOOPTqYu+ustAQ=="
+    "payload_digest": "sha256:a6671964baf1da0b616cb494883f7d217265d6ba5d362ca0b380602b7df7f60c",
+    "value": "vFJ/o9absnBwtMTwL7537ie0jO4fumq881cLSqyvg+TPCKwDA0GLDtErdYBjxVsX5jJvntlC/Vat8brsE+M6Dg=="
   }
 }
