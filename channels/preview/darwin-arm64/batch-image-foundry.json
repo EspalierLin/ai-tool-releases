@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-batch-image-foundry-9",
-  "manifest_version": 9,
+  "manifest_id": "update-batch-image-foundry-11",
+  "manifest_version": 11,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,36 +9,36 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-16T05:24:25.955396+00:00",
-  "expires_at": "2027-01-14T05:24:25.955396+00:00",
+  "published_at": "2026-10-16T16:27:41.472597+00:00",
+  "expires_at": "2027-01-14T16:27:41.472597+00:00",
   "component": {
     "component_id": "batch-image-foundry",
     "kind": "workspace",
     "product_uid": "skill_9322961a0d9540afa4ecd754b6246beb",
-    "version": "0.2.3",
-    "build_number": 1093,
+    "version": "0.2.4",
+    "build_number": 1094,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.2.3 (1093)",
-      "summary": "Imbalier 0.2.3 / 1093，macOS Apple 芯片公开预览。与 Windows 1093 使用同一冻结业务运行包；更新入口统一为 imbalier。包含当前另存草稿与更新桥接修复，保留原产品身份、外置工程和账号。Mac 保存更新 DMG 后手动安装；ad-hoc 签名、未公证。\n"
+      "title": "0.2.4 (1094)",
+      "summary": "Imbalier 0.2.4（1094）。继续使用同一个本地工程保存任务、参考图和成图历史；支持当前插件接口及按参考图自动匹配的批次参数。升级保留外置工程、图片、账号和已安装插件。\n"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "imbalier/v0.2.3-build.1093-macos-arm64"
+    "seed": "imbalier/v0.2.4-build.1094-macos-arm64"
   },
   "artifact": {
     "platform": "darwin",
     "architecture": "arm64",
     "format": "dmg",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-macos-arm64/Imbalier-0.2.3-1093-macOS-arm64.dmg",
-    "size_bytes": 259069254,
-    "sha256": "sha256:73037b7f0ab28d6019f39442693286c63c515fee54934f08368258dd70c28f4c",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1094-macos-arm64/Imbalier-0.2.4-1094-macOS-arm64.dmg",
+    "size_bytes": 258718374,
+    "sha256": "sha256:0ed9926e9a9853af19f7680faf391b4737a6ab0c753254dfac23dfece541dcc0",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-macos-1",
       "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
-      "signature_digest": "sha256:856a3d8c33337a423805720747bd155c54772de2e191e0779d9064b270ccb9d5"
+      "signature_digest": "sha256:d3b01f2ad12b00c1ca47bb3ae7e6bfed81ea32637a973cb63e7eb85a40f6f155"
     }
   },
   "compatibility": {},
@@ -54,7 +54,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-macos-1",
     "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
-    "payload_digest": "sha256:524191549a06ab6e0dd0748d5fdf844e46f92305759983ee90d41bbf8a2d48ba",
-    "value": "Y4tsEIlkKaFewRMa10glJ6Ja4PrOm0K0kxQYNtWFfd+az61K2kGSxVMZAUpWH32ZR0CwEkuMm3VRufrtPTbODw=="
+    "payload_digest": "sha256:20daa4e2665e42d2ea3efcccfb98dde93e63b1e27311daf7b2f28ed622e298e0",
+    "value": "3Hb1qBe52yx41gOV3aWmISoNyR/nhuVUgfODYoI5FWX+Lug48aECbIUR7Zs+JplvfMuXWMm0G1MOV0LpcrYhBw=="
   }
 }
