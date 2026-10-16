@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-pixel-texture-painter-9",
-  "manifest_version": 9,
+  "manifest_id": "update-pixel-texture-painter-15",
+  "manifest_version": 15,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,36 +9,36 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-15T13:09:22.026680+00:00",
-  "expires_at": "2027-01-13T13:09:22.026680+00:00",
+  "published_at": "2026-10-16T05:25:41.172496+00:00",
+  "expires_at": "2027-01-14T05:25:41.172496+00:00",
   "component": {
     "component_id": "pixel-texture-painter",
     "kind": "workspace",
     "product_uid": "skill_d624d6b5f3084aa98eb64e356343b516",
-    "version": "0.4.3",
-    "build_number": 1010,
+    "version": "0.4.4",
+    "build_number": 1019,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.4.3 (1010)",
-      "summary": "修复覆盖安装后旧版工程和示例重新打开时报 mutation_policy declaration is invalid。旧 AI 记录字段经正式迁移后再安装完整权限，保留模型、分层材质、人工绘画和既有 AI 记录；连续重启不重复改写。无需清缓存或重建工程。\n\n公开预览：Mac ad-hoc／未公证，Windows 未商业签名；本次未在 Windows 目标机实测安装。\n"
+      "title": "0.4.4 (1019)",
+      "summary": "Meshpalier 0.4.4 / 1019，macOS Apple 芯片公开预览。采用当前另存草稿冻结、空闲笔触和公共更新桥接修复，保留工程、分层材质、账号及内置几何核心。Mac 保存更新 DMG 后手动安装；ad-hoc 签名、未公证。\n"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "meshpalier/v0.4.3-build.1010-macos-arm64"
+    "seed": "meshpalier/v0.4.4-build.1019-macos-arm64"
   },
   "artifact": {
     "platform": "darwin",
     "architecture": "arm64",
     "format": "dmg",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.3-build.1010-macos-arm64/Meshpalier-0.4.3-1010-macOS-arm64.dmg",
-    "size_bytes": 266329457,
-    "sha256": "sha256:bdb6af325006e9efa322ef264de1eadb2e0500c5ff6fd927550ae93e0522d2f7",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.4-build.1019-macos-arm64/Meshpalier-0.4.4-1019-macOS-arm64.dmg",
+    "size_bytes": 265809794,
+    "sha256": "sha256:f500baeddee7d6628d44ec5b8d9e99bd071930187e6663cd8e8f0be02828b37a",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-1",
       "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-      "signature_digest": "sha256:0a30022896472b7288607d0ea4dc36ceecd15749c27ded30f4d64dbd5c235fb3"
+      "signature_digest": "sha256:7e874ba249fb17ddf1dbf67ef2b92b7a09a1c4e5e435c42f2f9bb44724608d8a"
     }
   },
   "compatibility": {},
@@ -54,7 +54,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-1",
     "public_key_digest": "sha256:5cc3df68a897fd82c3ebb3767f3b2be65a6f409fbc6c5074372a9b37c749f79a",
-    "payload_digest": "sha256:671d760591d8b320f08988ef74deb10f3a6403862c317554114150c24be4e13d",
-    "value": "/u4OrPt6AkLOuRf+lotniZ6/3OGGeY4bBUEMA38b03RNBAgTkRhCOdcuUIOZNFM5g5S2jE54RlXmg5CrWr9zCQ=="
+    "payload_digest": "sha256:f8a2e66291d4bab9083278dab624ddbe22418e8c9e2c11c6f965526ea0a5331b",
+    "value": "aFSZeGPsIPcj0Ad9iEM1lLSgCUh1xioW5SRbYcMH3me2s7DL4E/kaTBeo4Mes8JsEL+t9nKksb382AOsYlGyBA=="
   }
 }
