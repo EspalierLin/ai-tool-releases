@@ -1,0 +1,60 @@
+{
+  "schema": "ze.update-manifest.v3",
+  "manifest_id": "update-batch-image-foundry-9",
+  "manifest_version": 9,
+  "scope": {
+    "series_id": "el",
+    "organization_id": "independent-publisher",
+    "target_id": "batch-image-foundry-public"
+  },
+  "channel": "preview",
+  "state": "active",
+  "published_at": "2026-10-16T05:24:25.955396+00:00",
+  "expires_at": "2027-01-14T05:24:25.955396+00:00",
+  "component": {
+    "component_id": "batch-image-foundry",
+    "kind": "workspace",
+    "product_uid": "skill_9322961a0d9540afa4ecd754b6246beb",
+    "version": "0.2.3",
+    "build_number": 1093,
+    "severity": "recommended",
+    "release_notes": {
+      "title": "0.2.3 (1093)",
+      "summary": "Imbalier 0.2.3 / 1093，macOS Apple 芯片公开预览。与 Windows 1093 使用同一冻结业务运行包；更新入口统一为 imbalier。包含当前另存草稿与更新桥接修复，保留原产品身份、外置工程和账号。Mac 保存更新 DMG 后手动安装；ad-hoc 签名、未公证。\n"
+    }
+  },
+  "rollout": {
+    "percentage": 100,
+    "seed": "imbalier/v0.2.3-build.1093-macos-arm64"
+  },
+  "artifact": {
+    "platform": "darwin",
+    "architecture": "arm64",
+    "format": "dmg",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-macos-arm64/Imbalier-0.2.3-1093-macOS-arm64.dmg",
+    "size_bytes": 259069254,
+    "sha256": "sha256:73037b7f0ab28d6019f39442693286c63c515fee54934f08368258dd70c28f4c",
+    "signature": {
+      "algorithm": "ed25519",
+      "key_id": "publisher-macos-1",
+      "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
+      "signature_digest": "sha256:856a3d8c33337a423805720747bd155c54772de2e191e0779d9064b270ccb9d5"
+    }
+  },
+  "compatibility": {},
+  "install": {
+    "restart": "required",
+    "safe_point": "no-unsaved-work",
+    "estimated_seconds": 60,
+    "migration_confirmation": "not-required",
+    "strategy": "manual-container"
+  },
+  "project_migrations": [],
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "publisher-macos-1",
+    "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
+    "payload_digest": "sha256:524191549a06ab6e0dd0748d5fdf844e46f92305759983ee90d41bbf8a2d48ba",
+    "value": "Y4tsEIlkKaFewRMa10glJ6Ja4PrOm0K0kxQYNtWFfd+az61K2kGSxVMZAUpWH32ZR0CwEkuMm3VRufrtPTbODw=="
+  }
+}
