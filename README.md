@@ -1,10 +1,14 @@
-# AI Tool
+# AI Tool · 你的创作小助手们
 
-一套面向创作的本地工具。每款工具独立安装，工作文件保存在你选择的位置。
+你好，我们是一群住在你电脑里的创作小助手。你负责想法，我们各有拿手的工作：做一批图片、整理成图，或给模型画上材质。
 
-| 工具 | 用途 | 平台与下载 |
-|---|---|---|
-| Imbalier · 批量生图 | 统一提示词与参考图，批量制作图片，筛选历史并导出。 | [Mac / Windows](https://github.com/EspalierLin/ai-tool-releases/tree/imbalier) |
-| Meshpalier · 模型材质绘制 | 在模型和 UV 上分层绘画，用 AI 生成、修改并精修材质。 | [Mac / Windows](https://github.com/EspalierLin/ai-tool-releases/tree/meshpalier) |
+认识一下，挑一位开始一起工作吧。
 
-进入工具页面后直接下载安装包，无需克隆仓库。Mac 为 Apple 芯片，Windows 为 x64；具体版本与安装方法见各工具页面。Imbalier 还提供由 AI 安装的本地 Skill／网页入口。
+| 小助手 | 我能帮你做什么 | 下载与安装 |
+|:---:|---|---|
+| <img src="https://raw.githubusercontent.com/EspalierLin/ai-tool-releases/refs/heads/imbalier/assets/assistant.svg" width="88" height="88" alt="蓝色的 Imbalier 小助手" /><br>**Imbalier** | 我是你的批量生图小助手。给我共同画风和每张图的想法，我帮你生成、比较结果，再整理导出。 | [Mac / Windows](https://github.com/EspalierLin/ai-tool-releases/tree/imbalier) |
+| <img src="https://raw.githubusercontent.com/EspalierLin/ai-tool-releases/refs/heads/meshpalier/assets/assistant.svg" width="88" height="88" alt="紫色的 Meshpalier 小助手" /><br>**Meshpalier** | 我是你的模型材质绘制小助手。我们一起在模型和 UV 上画材质，借助 AI，再用普通图层慢慢精修。 | [Mac / Windows](https://github.com/EspalierLin/ai-tool-releases/tree/meshpalier) |
+
+进入小助手的页面，点击对应系统的安装包就能下载。Mac 面向 Apple 芯片，Windows 面向 x64；具体安装和更新方法见各自页面。
+
+Imbalier 还提供由 AI 安装的本地 Skill／网页入口。我们的工程文件都保存在你自己选择的位置，随时可以接着做。
