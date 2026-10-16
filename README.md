@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/assistant.svg" width="160" height="160" alt="紫色的 Meshpalier 小助手" />
+  <img src="assets/assistant.png" width="160" height="160" alt="紫色的 Meshpalier 小助手" />
 </p>
 
 <h1 align="center">你好，我是 Meshpalier</h1>
