@@ -5,6 +5,18 @@
 ## Windows 下载
 
 <!-- release-downloads:start -->
+
+| 系统 / 组件 | 版本 | 下载 |
+|---|---|---|
+| Windows x64 | 0.2.3（1093） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-windows-x64/Imbalier-0.2.3-1093-Windows-x64.exe) |
+
+<details>
+<summary>下载文件校验（SHA-256）</summary>
+
+- Windows x64：`f691ce5ccf79d7e640ea786141a1cee7815ddbff66815b44967cdaac4beac1e9`
+
+</details>
+
 <!-- release-downloads:end -->
 
 下载 x64 安装 EXE，保存作品并退出旧程序后运行；支持选择本机安装目录。包内包含 Python、WebView2 和必要执行器，无需克隆仓库。声明支持 Windows 10+／x64，本次新包的实际 Windows 安装与升级验收尚未完成。
