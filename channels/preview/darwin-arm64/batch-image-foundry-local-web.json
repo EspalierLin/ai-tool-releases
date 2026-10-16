@@ -1,0 +1,60 @@
+{
+  "schema": "ze.update-manifest.v3",
+  "manifest_id": "update-batch-image-foundry-local-web-4",
+  "manifest_version": 4,
+  "scope": {
+    "series_id": "el",
+    "organization_id": "independent-publisher",
+    "target_id": "batch-image-foundry-public"
+  },
+  "channel": "preview",
+  "state": "active",
+  "published_at": "2026-10-16T16:27:45.770982+00:00",
+  "expires_at": "2027-01-14T16:27:45.770982+00:00",
+  "component": {
+    "component_id": "batch-image-foundry-local-web",
+    "kind": "skill-runtime",
+    "product_uid": "skill_9322961a0d9540afa4ecd754b6246beb",
+    "version": "0.2.4",
+    "build_number": 1094,
+    "severity": "recommended",
+    "release_notes": {
+      "title": "Imbalier · Local Skill / Web 0.2.4 (1094)",
+      "summary": "Imbalier 本地 Skill／网页 0.2.4（1094）。一个 ZIP 同时包含 Mac Apple 芯片与 Windows x64 所需运行环境，按系统自动选择入口；与桌面版使用同一套任务、参考图和工程格式。完整解压后交给 AI 读取 SKILL.md，即可使用本机网页和命令入口。\n"
+    }
+  },
+  "rollout": {
+    "percentage": 100,
+    "seed": "imbalier/local-web/v0.2.4-build.1094-universal"
+  },
+  "artifact": {
+    "platform": "darwin",
+    "architecture": "arm64",
+    "format": "zip",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Flocal-web%2Fv0.2.4-build.1094-universal/imbalier-0.2.4-1094-Skill.zip",
+    "size_bytes": 438238444,
+    "sha256": "sha256:d102661ac3fbadf17f6183f1c52530a05ca0e1329bb68ce66442e5a758f396bb",
+    "signature": {
+      "algorithm": "ed25519",
+      "key_id": "publisher-macos-1",
+      "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
+      "signature_digest": "sha256:d412ad60f9b6e0d2c7bc5bff1fea7046bf83fdfd175bada6c682bbdd1f35e324"
+    }
+  },
+  "compatibility": {},
+  "install": {
+    "restart": "required",
+    "safe_point": "no-active-task",
+    "estimated_seconds": 30,
+    "migration_confirmation": "not-required",
+    "strategy": "managed-directory"
+  },
+  "project_migrations": [],
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "publisher-macos-1",
+    "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
+    "payload_digest": "sha256:f0940526ed7064163288c63968642826c65f5f043a6f5833d7ac738213f71571",
+    "value": "2q7XzmDMxWl/h3onjE8akSI7UMKx+6nqY/DRealNFGZPvsT+4mS7Gv8QjZkrP6OfUidvlk3pVZdC4CXvs3JyDA=="
+  }
+}
