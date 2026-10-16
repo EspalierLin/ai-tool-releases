@@ -1,15 +1,15 @@
 # Imbalier
 
-在一个本地工程中批量制作图片：统一提示词和参考图，逐项生成，筛选历史，再导出成图。工程和账号留在自己的电脑上。
+在一个本地工程中批量制作图片：统一提示词与参考图，逐项生成、筛选历史，再导出成图。工程和账号留在自己的电脑上。
 
-## Windows 下载
+## 桌面版下载
 
 <!-- release-downloads:start -->
 
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
-| Mac · Apple 芯片 | 0.2.3（1093） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-macos-arm64/Imbalier-0.2.3-1093-macOS-arm64.dmg) |
-| Windows x64 | 0.2.3（1093） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-windows-x64/Imbalier-0.2.3-1093-Windows-x64.exe) |
+| Mac · Apple 芯片 | 0.2.3（1093） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-macos-arm64/Imbalier-0.2.3-1093-macOS-arm64.dmg) |
+| Windows x64 | 0.2.3（1093） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-windows-x64/Imbalier-0.2.3-1093-Windows-x64.exe) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
@@ -21,16 +21,45 @@
 
 <!-- release-downloads:end -->
 
-下载 x64 安装 EXE，保存作品并退出旧程序后运行；支持选择本机安装目录。包内包含 Python、WebView2 和必要执行器，无需克隆仓库。声明支持 Windows 10+／x64，本次新包的实际 Windows 安装与升级验收尚未完成。
+Mac：macOS 14+／Apple 芯片，打开 DMG 后把应用拖入 Applications。Windows：Windows 10+／x64，保存作品并退出旧实例后运行 EXE，可选择本机安装目录。包内包含运行环境，无需克隆仓库或另装 Python。
 
-0.2.3 修复 Windows 请求账本误判、另存草稿冻结，以及更新交接和深层路径处理。更新保留外置工程、图片、账号和已装插件；私人公司插件独立安装，不包含在公开包里。
+0.2.3 修复文件账本误判、另存草稿冻结和更新交接；两平台均为 1093。升级保留外置工程、图片、账号和已安装插件。私人公司插件独立安装，不包含在公开包里。
 
-## 更新和其他版本
+## 更新
 
-在“设置 → 检查更新”中检查并下载验签；支持新协议的 Windows 宿主可点“更新并重启”。旧版若在安装交接处取消或失败，请手动运行本页安装器覆盖升级一次。之后读取本页对应的新更新入口。
+在“设置 → 检查更新”中检查、下载并验签。Windows 新宿主支持“更新并重启”；Mac 保存更新 DMG 后手动替换应用。
 
-[Mac 安装包与本地 Skill／网页下载](https://github.com/EspalierLin/ai-tool-releases/tree/101-batch-image-foundry)保留此前实际发布的版本及安装说明，旧包仍显示 Batch Image Foundry。两种入口使用同一工程格式；网页运行在本机。
+旧版本若无法在软件内完成更新，请从本页手动安装新版一次；之后继续使用软件内的检查更新。原工程和账号继续保留。
 
-当前为公开预览；Windows 安装器尚无系统代码签名。安装包和更新清单另有原产品 Ed25519 签名。本次不把源码检查或完整解包作为 Windows 实机验收；[实际验证范围](https://github.com/EspalierLin/ai-tool/blob/101-batch-image-foundry/docs/INSTALL_UPDATE_SYSTEM.md)。
+## 通过 AI 使用本地 Skill／网页
+
+复制下面一段给能操作本机文件和命令的 AI。它先用你的语言介绍并询问是否安装，同意后才安装。网页在本机运行，不需要服务器。
+
+```text
+Read https://raw.githubusercontent.com/EspalierLin/ai-tool-releases/refs/heads/imbalier/README.md. Reply in the language of our conversation. Explain Imbalier's local Skill and browser mode, supported downloads, local project ownership and account use, then ask whether I want to install it. Do not install, sign in or generate images before I agree. After I agree, follow this README's AI installation instructions for my operating system and AI host, verify the exact published archive, and report the actual result.
+```
+
+<details>
+<summary>Skill 下载与 AI 安装规则</summary>
+
+当前实际发行的 Skill／网页为 **0.2.2**，以下是两份独立平台 ZIP，旧包仍显示 Batch Image Foundry。它们和桌面版共用 v4 工程；ZIP 自带解释器和执行器。
+
+| 系统 | 版本 | 下载 |
+|---|---|---|
+| Mac · Apple 芯片 | 0.2.2（1091） | [下载 ZIP](https://github.com/EspalierLin/ai-tool-releases/releases/download/101-batch-image-foundry%2Flocal-web%2Fv0.2.2-build.1091-macos-arm64/batch-image-foundry-0.2.2-1091-Local-Web-macos-arm64.zip) |
+| Windows x64 | 0.2.2（1092） | [下载 ZIP](https://github.com/EspalierLin/ai-tool-releases/releases/download/101-batch-image-foundry%2Flocal-web%2Fv0.2.2-build.1092-windows-x64/batch-image-foundry-0.2.2-1092-Local-Web-windows-x64.zip) |
+
+SHA-256：Mac `7494ab30d6ac39bc873b073ecf67c0ac57e1579d20ece4e8506f0001b736ce7b`；Windows `3f6d93afc73b1266a1627711a41297b6c3901e01f34915aaec8518da19626a9c`。历史 Release 标签与附件保留，下载不依赖已删除的旧分支。
+
+1. 先介绍并询问是否安装；检测 OS／CPU，以及 AI 宿主是否有本机文件、命令和 Skill 能力。只有云端聊天能力无法安装到用户电脑。
+2. 同意后选择上表对应 ZIP，固定版本、build、大小和 SHA-256。对应 Release 还提供 `manifest.json` 和独立 `.zip.sig`；核对官方入口及签名身份，不使用源码 ZIP 或全仓库 latest。
+3. 按当前 AI 宿主的 Skill 安装规则选择位置；检查 ZIP 路径后完整解压，保留执行权限。归档根为 `batch-image-foundry`；禁止覆盖活动目录或其他 Skill，不修改全局 Python／Node。
+4. Mac 用 `scripts/run.sh`，Windows 用 `scripts/run.cmd`。先读 `--help`、`--version` 和 `skill --json`；按宿主规则刷新发现，确认实际加载。
+5. 查 `runtime status`；沿 `ui open --no-launch` 获取本机 `127.0.0.1` 网页，再按随包 `SKILL.md` 操作。版本不兼容时安全退出旧实例，不删锁、不强退任务。
+6. 工程是用户选择位置的完整 `.elproject` 文件夹，放在程序之外；AI 和网页操作同一工程，不直接改 JSON 或另建副本。账号由用户在工作台连接，安装同意不授权生图，也不授权读取其他 App 的凭据。
+7. 更新 Skill 前沿 `runtime stop` 等待安全点，完整替换该程序目录；保留外置工程、授权、偏好和未完成任务。当前 Skill 采用手动完整替换，不使用桌面安装器更新。
+8. 用用户语言报告真实版本、路径、入口和结果，并清除本次临时下载与解压。用户对话跟随当前语言；工作台支持中文和英文。
+
+</details>
 
 [返回工具目录](https://github.com/EspalierLin/ai-tool-releases)
