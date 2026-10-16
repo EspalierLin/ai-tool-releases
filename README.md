@@ -18,14 +18,14 @@
 
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
-| Mac · Apple 芯片 | 0.2.3（1093） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-macos-arm64/Imbalier-0.2.3-1093-macOS-arm64.dmg) |
-| Windows x64 | 0.2.3（1093） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-windows-x64/Imbalier-0.2.3-1093-Windows-x64.exe) |
+| Mac · Apple 芯片 | 0.2.3（1093） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-macos-arm64/Imbalier-0.2.3-1093-macOS-arm64.dmg) |
+| Windows x64 | 0.2.4（1094） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1094-windows-x64/Imbalier-0.2.4-1094-Windows-x64.exe) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
 
 - Mac · Apple 芯片：`73037b7f0ab28d6019f39442693286c63c515fee54934f08368258dd70c28f4c`
-- Windows x64：`f691ce5ccf79d7e640ea786141a1cee7815ddbff66815b44967cdaac4beac1e9`
+- Windows x64：`069cf9afdc11080253fc8cbd1c113ba4a806ba6b4abe426cb1e1eb064a8f07ac`
 
 </details>
 

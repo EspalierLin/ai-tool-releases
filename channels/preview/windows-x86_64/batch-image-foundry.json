@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-batch-image-foundry-8",
-  "manifest_version": 8,
+  "manifest_id": "update-batch-image-foundry-10",
+  "manifest_version": 10,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,38 +9,38 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-16T03:19:20.857933+00:00",
-  "expires_at": "2027-01-14T03:19:20.857933+00:00",
+  "published_at": "2026-10-16T16:27:39.887117+00:00",
+  "expires_at": "2027-01-14T16:27:39.887117+00:00",
   "component": {
     "component_id": "batch-image-foundry",
     "kind": "workspace",
     "product_uid": "skill_9322961a0d9540afa4ecd754b6246beb",
-    "version": "0.2.3",
-    "build_number": 1093,
+    "version": "0.2.4",
+    "build_number": 1094,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.2.3 (1093)",
-      "summary": "Imbalier 0.2.3 (1093) · Windows x64 公开预览\n\n修复 Windows 稳定请求账本被误判损坏、草稿异步另存和同步冻结边界；更新仍保留原工程、图片、身份与已安装插件。原生更新修复空闲关闭轮询阻塞安装协调、更新助手深层路径处理与健康后事务回收。产品业务来源为 101-batch-image-foundry @ 7081b775，使用已正式采用的九标准组合。\n\n本版安装后使用 Imbalier 更新入口。旧版如提示安装取消或交接失败，请退出并运行此安装器覆盖升级；旧宿主缺陷不能由新清单修复。已下载验签不等于安装完成。\n\n本次在 macOS 从干净源码构建 Windows 安装器，前端类型检查、Vite 构建及 17 项文件/退出/更新 HTTP 检查通过；4 项 Windows 专属检查未执行。最终 EXE 完整解包、安装文件清单与冻结来源核对，并验证公开附件及签名。本版尚未进行 Windows 实际安装、窗口文件操作或 N→N+1 更新验收；没有新付费生图验收。\n\n本版为 preview，安装器尚无 Authenticode 签名；Ed25519 更新签名不等于系统发行者证书。Mac 与本地 Skill 保留此前公开版本。\n"
+      "title": "0.2.4 (1094)",
+      "summary": "Imbalier 0.2.4（1094）。继续使用同一个本地工程保存任务、参考图和成图历史；支持当前插件接口及按参考图自动匹配的批次参数。升级保留外置工程、图片、账号和已安装插件。\n"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "imbalier/v0.2.3-build.1093-windows-x64"
+    "seed": "imbalier/v0.2.4-build.1094-windows-x64"
   },
   "artifact": {
     "platform": "windows",
     "architecture": "x86_64",
     "format": "exe",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.3-build.1093-windows-x64/Imbalier-0.2.3-1093-Windows-x64.exe",
-    "size_bytes": 414639918,
-    "sha256": "sha256:f691ce5ccf79d7e640ea786141a1cee7815ddbff66815b44967cdaac4beac1e9",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1094-windows-x64/Imbalier-0.2.4-1094-Windows-x64.exe",
+    "size_bytes": 410125064,
+    "sha256": "sha256:069cf9afdc11080253fc8cbd1c113ba4a806ba6b4abe426cb1e1eb064a8f07ac",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-macos-1",
       "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
-      "signature_digest": "sha256:2eb9952f0822530d365abb4c60c08706f793179ae05ec838ae541da39d342f8b"
+      "signature_digest": "sha256:116334fb253ca9006bd900c436635e7c3f46fab1896a4a57d575b7535643ecb4"
     },
-    "installed_size_bytes": 1358775769
+    "installed_size_bytes": 1327178224
   },
   "compatibility": {},
   "install": {
@@ -55,7 +55,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-macos-1",
     "public_key_digest": "sha256:425684613a5aa3691936193e883c1b564d09b88eba2dfd8534075e228ec53665",
-    "payload_digest": "sha256:b413dc462e706eb00379f91f8db411e104958e287659057afdfee3b5fa5d739c",
-    "value": "Zk5nqcgHMh5CTyqH0kAIJt8AS5+UsVBGlWo/JU6I6hy9ZyBTjt6mg862ZpcLoVXyhb09KA5X+xIAOOurXB1uBQ=="
+    "payload_digest": "sha256:06d8fbebd17d2d086f34a251793c5a350ab3a5288327d8f5382111fabd02ac07",
+    "value": "0jmV9dK+0QbAAIfa18PHlJSyoef3PMuWemQcjPLVAOFfT7nTwTGQhHBlJh0/9xM9u33eol3Abe81TjXpCPNZDA=="
   }
 }
