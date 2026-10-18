@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-rs-building-preview-2",
-  "manifest_version": 2,
+  "manifest_id": "update-rs-building-preview-3",
+  "manifest_version": 3,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,36 +9,36 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-10-18T11:04:48.348100+00:00",
-  "expires_at": "2027-01-16T11:04:48.348100+00:00",
+  "published_at": "2026-10-18T11:22:52.581081+00:00",
+  "expires_at": "2027-01-16T11:22:52.581081+00:00",
   "component": {
     "component_id": "rs-building-preview",
     "kind": "workspace",
     "product_uid": "skill_53074a11f813a0baa16fe01224193d66",
     "version": "0.6.0",
-    "build_number": 18,
+    "build_number": 19,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.6.0 (18)",
-      "summary": "游戏模块化场景工作 0.6.0（18）：沿用绿色小助手图标，统一应用显示名称。支持模块库预览、实例放置、楼层与材质管理、打组／解组按钮和 Ctrl/Cmd+G、Ctrl/Cmd+Shift+G；同一工程供 Rhino 与 UE 插件打开和保存。设置中可检查和下载签名更新。macOS 14+ / Apple 芯片；打开 DMG 后将应用放入 Applications。\n"
+      "title": "0.6.0 (19)",
+      "summary": "游戏模块化场景工作 0.6.0（19）：沿用绿色小助手图标和新名称，修复首次打开工程时模块缩略图等待资源地址后未自动恢复的问题。支持模块库预览、实例放置、楼层与材质管理、打组／解组按钮和 Ctrl/Cmd+G、Ctrl/Cmd+Shift+G。同一工程供 Rhino 与 UE 插件打开和保存，设置中可检查、下载并验签更新。macOS 14+ / Apple 芯片；打开 DMG 后将应用放入 Applications。\n"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "rs-building-preview/v0.6.0-build.18-macos-arm64"
+    "seed": "rs-building-preview/v0.6.0-build.19-macos-arm64"
   },
   "artifact": {
     "platform": "darwin",
     "architecture": "arm64",
     "format": "dmg",
-    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.18-macos-arm64/rs-building-preview-0.6.0-18-macOS-arm64.dmg",
-    "size_bytes": 253512526,
-    "sha256": "sha256:d72dd686cc272b3e600821e412bfa62b3e7d412fb35b0ca13bc09d67548f4c7f",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.19-macos-arm64/rs-building-preview-0.6.0-19-macOS-arm64.dmg",
+    "size_bytes": 251917616,
+    "sha256": "sha256:7b4c604daeff21971c243f1776f3f06ff230358e8b8e011277b29195f7a84b49",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-macos-1",
       "public_key_digest": "sha256:480c2546bb75ace484f4761cd8f62538b514ab368bdeb46159fd0b476c831f27",
-      "signature_digest": "sha256:5b27005b65099cbc3dab5ae1a7b1cfeec6fbf0062a47e1eb21840a81c692de03"
+      "signature_digest": "sha256:d6c6846ccb0e0c722bce21f4b2c7ee56168c9de0af1c2db14d6dc251168d2de2"
     }
   },
   "compatibility": {},
@@ -54,7 +54,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-macos-1",
     "public_key_digest": "sha256:480c2546bb75ace484f4761cd8f62538b514ab368bdeb46159fd0b476c831f27",
-    "payload_digest": "sha256:c63ae59fffaa4cb76728557225214d7d3b6609d3b8e526c57db8dc41fe7a7ee6",
-    "value": "0Z2Uwvq6rdQTPxI1Q53QDwZSWEmvEejpnyKN71Ra8ePM689HgTKki5B1e7UW2q96XUhMqcDS/K2Brn/aK68fDA=="
+    "payload_digest": "sha256:9007bfca38a537c4452cbde16ccc0abdb4d286710020e96f73ee55deeeac2fd1",
+    "value": "RKinLrsC1Z7pYH54qr5pQi/N6t7AZm8g/RlhPOK72azrBlWZ+SKWFBh70GPpJ8iDaJFIvEt1vCCnlQcWvIP2BA=="
   }
 }

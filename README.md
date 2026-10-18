@@ -19,12 +19,12 @@
 
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
-| Mac · Apple 芯片 | 0.6.0（18） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.18-macos-arm64/rs-building-preview-0.6.0-18-macOS-arm64.dmg) |
+| Mac · Apple 芯片 | 0.6.0（19） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.19-macos-arm64/rs-building-preview-0.6.0-19-macOS-arm64.dmg) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
 
-- Mac · Apple 芯片：`d72dd686cc272b3e600821e412bfa62b3e7d412fb35b0ca13bc09d67548f4c7f`
+- Mac · Apple 芯片：`7b4c604daeff21971c243f1776f3f06ff230358e8b8e011277b29195f7a84b49`
 
 </details>
 
