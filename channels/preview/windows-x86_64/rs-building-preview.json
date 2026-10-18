@@ -1,0 +1,61 @@
+{
+  "schema": "ze.update-manifest.v3",
+  "manifest_id": "update-rs-building-preview-4",
+  "manifest_version": 4,
+  "scope": {
+    "series_id": "el",
+    "organization_id": "independent-publisher",
+    "target_id": "rs-building-preview-public"
+  },
+  "channel": "preview",
+  "state": "active",
+  "published_at": "2026-10-18T11:34:22.089613+00:00",
+  "expires_at": "2027-01-16T11:34:22.089613+00:00",
+  "component": {
+    "component_id": "rs-building-preview",
+    "kind": "workspace",
+    "product_uid": "skill_53074a11f813a0baa16fe01224193d66",
+    "version": "0.6.0",
+    "build_number": 19,
+    "severity": "recommended",
+    "release_notes": {
+      "title": "0.6.0 (19)",
+      "summary": "游戏模块化场景工作 0.6.0（19）：沿用绿色小助手图标和新名称，修复首次打开工程时模块缩略图等待资源地址后未自动恢复的问题。支持模块库预览、实例放置、楼层与材质管理、打组／解组按钮和 Ctrl/Cmd+G、Ctrl/Cmd+Shift+G。同一工程供 Rhino 与 UE 插件打开和保存，设置中可检查、下载并验签更新。Windows 10+ / x64；运行 EXE 安装，包内包含运行环境。\n"
+    }
+  },
+  "rollout": {
+    "percentage": 100,
+    "seed": "rs-building-preview/v0.6.0-build.19-windows-x64"
+  },
+  "artifact": {
+    "platform": "windows",
+    "architecture": "x86_64",
+    "format": "exe",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.19-windows-x64/rs-building-preview-0.6.0-19-Windows-x64.exe",
+    "size_bytes": 408045532,
+    "sha256": "sha256:e7b407005e8a3dc014883499831861d3de7b90e9eaeb72f1327fda7840d45132",
+    "signature": {
+      "algorithm": "ed25519",
+      "key_id": "publisher-macos-1",
+      "public_key_digest": "sha256:480c2546bb75ace484f4761cd8f62538b514ab368bdeb46159fd0b476c831f27",
+      "signature_digest": "sha256:2d0c5ca60d11913812b0f68106ea389ba4c362fd78cbcac38edfe038aed5625b"
+    },
+    "installed_size_bytes": 1329579446
+  },
+  "compatibility": {},
+  "install": {
+    "restart": "required",
+    "safe_point": "no-unsaved-work",
+    "estimated_seconds": 60,
+    "migration_confirmation": "not-required",
+    "strategy": "platform-installer"
+  },
+  "project_migrations": [],
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "publisher-macos-1",
+    "public_key_digest": "sha256:480c2546bb75ace484f4761cd8f62538b514ab368bdeb46159fd0b476c831f27",
+    "payload_digest": "sha256:cb3f84f232653d91eabc2ebd845a821351b6ca50f4a3c1a10cc2e20830aea1a9",
+    "value": "rpeIViZkrqhwE7Pdj+0qBheV2Euuf7Bai8AkGOdst15JaZE6IhNC8h/O9/xhVs5QZl8gQlrbRdWciug+mT7dCg=="
+  }
+}
