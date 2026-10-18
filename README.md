@@ -13,8 +13,13 @@
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
 | Mac · Apple 芯片 | 0.6.0（17） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.17-macos-arm64/RS-Scene-Workbench-0.6.0-17-macOS-arm64.dmg) |
-| Windows x64 | 0.6.0（17） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.17-windows-x64/RS-Scene-Workbench-0.6.0-17-Windows-x64.exe) |
 
+<details>
+<summary>下载文件校验（SHA-256）</summary>
+
+- Mac · Apple 芯片：`cae2b955057da49bd1a684a34eabc960505903241dfd99e763061738542f10a4`
+
+</details>
 
 <!-- release-downloads:end -->
 

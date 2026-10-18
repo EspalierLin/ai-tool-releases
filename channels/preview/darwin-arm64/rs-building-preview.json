@@ -1,0 +1,60 @@
+{
+  "schema": "ze.update-manifest.v3",
+  "manifest_id": "update-rs-building-preview-1",
+  "manifest_version": 1,
+  "scope": {
+    "series_id": "el",
+    "organization_id": "independent-publisher",
+    "target_id": "rs-building-preview-public"
+  },
+  "channel": "preview",
+  "state": "active",
+  "published_at": "2026-10-18T10:50:16.767140+00:00",
+  "expires_at": "2027-01-16T10:50:16.767140+00:00",
+  "component": {
+    "component_id": "rs-building-preview",
+    "kind": "workspace",
+    "product_uid": "skill_53074a11f813a0baa16fe01224193d66",
+    "version": "0.6.0",
+    "build_number": 17,
+    "severity": "recommended",
+    "release_notes": {
+      "title": "0.6.0 (17)",
+      "summary": "RS 场景工作台 0.6.0（17）：模块库缩略图、独立模型预览、明确确认后放置、同一工程跨工作台和 Rhino 保存，以及设置中的签名更新检查。macOS 14+ / Apple 芯片；打开 DMG 后将 App 放入应用程序。 场景实例支持打组／解组按钮和 Ctrl/Cmd+G、Ctrl/Cmd+Shift+G，关系按统一合同保存。\n"
+    }
+  },
+  "rollout": {
+    "percentage": 100,
+    "seed": "rs-building-preview/v0.6.0-build.17-macos-arm64"
+  },
+  "artifact": {
+    "platform": "darwin",
+    "architecture": "arm64",
+    "format": "dmg",
+    "immutable_url": "https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.17-macos-arm64/RS-Scene-Workbench-0.6.0-17-macOS-arm64.dmg",
+    "size_bytes": 251647899,
+    "sha256": "sha256:cae2b955057da49bd1a684a34eabc960505903241dfd99e763061738542f10a4",
+    "signature": {
+      "algorithm": "ed25519",
+      "key_id": "publisher-macos-1",
+      "public_key_digest": "sha256:480c2546bb75ace484f4761cd8f62538b514ab368bdeb46159fd0b476c831f27",
+      "signature_digest": "sha256:432035f2f83d6f13c343f392bbf111f656612b9feb6a42c03d30255a802b1a69"
+    }
+  },
+  "compatibility": {},
+  "install": {
+    "restart": "required",
+    "safe_point": "no-unsaved-work",
+    "estimated_seconds": 60,
+    "migration_confirmation": "not-required",
+    "strategy": "manual-container"
+  },
+  "project_migrations": [],
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "publisher-macos-1",
+    "public_key_digest": "sha256:480c2546bb75ace484f4761cd8f62538b514ab368bdeb46159fd0b476c831f27",
+    "payload_digest": "sha256:81a91b331132850d396fca5f88ad3df2b7df4ee7a98eba8dd0fb68b4c0f7082c",
+    "value": "B4enmw8lyqsd/LlnbVED/SRVE2iehVXqUHueF7Gym0QZEJjREktBjqkUCF62XrYG/Ca8NiYdbI3wyKYtLF8wCg=="
+  }
+}
