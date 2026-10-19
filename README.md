@@ -18,15 +18,15 @@
 
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
-| Mac · Apple 芯片 / Windows x64 · 本地 Skill / 网页 | 0.2.4（1094） | [下载 ZIP](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Flocal-web%2Fv0.2.4-build.1094-universal/imbalier-0.2.4-1094-Skill.zip) |
-| Mac · Apple 芯片 | 0.2.4（1094） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1094-macos-arm64/Imbalier-0.2.4-1094-macOS-arm64.dmg) |
-| Windows x64 | 0.2.4（1094） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1094-windows-x64/Imbalier-0.2.4-1094-Windows-x64.exe) |
+| Mac · Apple 芯片 / Windows x64 · 本地 Skill / 网页 | 0.2.4（1094） · 预览版 | [下载 ZIP](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Flocal-web%2Fv0.2.4-build.1094-universal/imbalier-0.2.4-1094-Skill.zip) |
+| Mac · Apple 芯片 | 0.2.4（1097） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1097-macos-arm64/Imbalier-0.2.4-1097-macOS-arm64.dmg) |
+| Windows x64 | 0.2.4（1094） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1094-windows-x64/Imbalier-0.2.4-1094-Windows-x64.exe) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
 
 - Mac · Apple 芯片 / Windows x64 · 本地 Skill / 网页：`d102661ac3fbadf17f6183f1c52530a05ca0e1329bb68ce66442e5a758f396bb`
-- Mac · Apple 芯片：`0ed9926e9a9853af19f7680faf391b4737a6ab0c753254dfac23dfece541dcc0`
+- Mac · Apple 芯片：`84b1e7b391ea2f469a6e2592e3f0dbc19b63e0c1cb1b4635fd03d47d36511ffa`
 - Windows x64：`069cf9afdc11080253fc8cbd1c113ba4a806ba6b4abe426cb1e1eb064a8f07ac`
 
 </details>
