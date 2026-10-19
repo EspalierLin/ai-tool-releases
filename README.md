@@ -18,9 +18,9 @@
 
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
-| Mac · Apple 芯片 / Windows x64 · 本地 Skill / 网页 | 0.2.4（1094） · 预览版 | [下载 ZIP](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Flocal-web%2Fv0.2.4-build.1094-universal/imbalier-0.2.4-1094-Skill.zip) |
-| Mac · Apple 芯片 | 0.2.4（1097） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1097-macos-arm64/Imbalier-0.2.4-1097-macOS-arm64.dmg) |
-| Windows x64 | 0.2.4（1094） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1094-windows-x64/Imbalier-0.2.4-1094-Windows-x64.exe) |
+| Mac · Apple 芯片 / Windows x64 · 本地 Skill / 网页 | 0.2.4（1094） | [下载 ZIP](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Flocal-web%2Fv0.2.4-build.1094-universal/imbalier-0.2.4-1094-Skill.zip) |
+| Mac · Apple 芯片 | 0.2.4（1097） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1097-macos-arm64/Imbalier-0.2.4-1097-macOS-arm64.dmg) |
+| Windows x64 | 0.2.4（1094） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1094-windows-x64/Imbalier-0.2.4-1094-Windows-x64.exe) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
@@ -35,7 +35,7 @@
 
 Mac：macOS 14+／Apple 芯片，打开 DMG 后把应用拖入 Applications。Windows：Windows 10+／x64，保存作品并退出旧实例后运行 EXE，可选择本机安装目录。包内包含运行环境，无需克隆仓库或另装 Python。
 
-0.2.4（1094）统一桌面版和通用 Skill 的业务与工程格式，并支持按参考图自动匹配的插件批次参数。升级保留外置工程、图片、账号和已安装插件。
+当前 Mac 为 0.2.4（1097），Windows 和通用 Skill 为 0.2.4（1094），共用同一工程格式。Mac 版修复兼容插件升级后的连接保留与新批次首次启用插件生图的问题。升级保留外置工程、图片、账号和已安装插件。
 
 ## 更新
 
@@ -54,7 +54,7 @@ Read https://raw.githubusercontent.com/EspalierLin/ai-tool-releases/refs/heads/i
 <details>
 <summary>Skill 下载与 AI 安装规则</summary>
 
-当前通用 Skill／网页与桌面版同为 **0.2.4（1094）**。上方的一个 Skill ZIP 同时包含 Mac Apple 芯片和 Windows x64 的运行环境，启动脚本自动选择本机材料，无需安装桌面 App、Python 或 Node。网页在你的电脑里运行。
+当前通用 Skill／网页为 **0.2.4（1094）**。上方的一个 Skill ZIP 同时包含 Mac Apple 芯片和 Windows x64 的运行环境，启动脚本自动选择本机材料，无需安装桌面 App、Python 或 Node。网页在你的电脑里运行。
 
 通用 ZIP 大小为 **438238444 字节**，SHA-256 见上方校验栏。支持 macOS 14+／Apple 芯片和 Windows 10+／x64；Intel Mac、Windows ARM、Linux／WSL 和手机不在本包范围。
 
