@@ -22,7 +22,7 @@
 | Mac · Apple 芯片 | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-macos-arm64/Scenalier-0.7.0-24-macOS-arm64.dmg) |
 | Windows x64 | 0.6.0（19） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.19-windows-x64/rs-building-preview-0.6.0-19-Windows-x64.exe) |
 | Rhino 8 · Mac Apple 芯片 <!-- release-edition --> | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-rhino-8-macos-arm64/Scenalier-Rhino-0.7.0-24-macOS.zip) |
-| Rhino 8 · Windows x64 <!-- release-edition --> | 0.7.0（24） · 待实机验收 | 暂未发布 |
+| Rhino 8 · Windows x64 <!-- release-edition --> | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-rhino-8-windows-x64/Scenalier-Rhino-0.7.0-24-Windows.zip) |
 | UE 5.4 · Windows x64 <!-- release-edition --> | 0.7.0 · 待编译验收 | 暂未发布 |
 
 <details>
@@ -31,6 +31,7 @@
 - Mac · Apple 芯片：`1a76b7cac05aee14a2c81ae04ab0e89a691da84dba34c8e3b1b010182dd41965`
 - Windows x64：`e7b407005e8a3dc014883499831861d3de7b90e9eaeb72f1327fda7840d45132`
 - Rhino 8 · Mac Apple 芯片：`cc47749605d1e4d11fab14fc28f0567469df79b7a37a3cf538c9cefe3c9db0eb` <!-- release-edition-sha256 -->
+- Rhino 8 · Windows x64：`603cdf99dfbb212329c9506f071cb32451e736fb9bf7a76f359b4b9feea83d3b` <!-- release-edition-sha256 -->
 
 </details>
 
@@ -39,6 +40,7 @@
 - Mac：macOS 14+／Apple 芯片，打开 DMG 后把 Scenalier 拖入 Applications。
 - Windows：Windows 10+／x64，运行 EXE 安装。
 - Rhino 8 Mac：保存并退出 Rhino，解压 ZIP，运行「安装 macOS.command」，重启后执行 RSStudio。
+- Rhino 8 Windows：保存并退出 Rhino，解压 ZIP，运行「安装 Windows.ps1」，按包内说明完成加载。
 
 安装包已包含运行环境；Rhino 版可直接安装使用。
 
