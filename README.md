@@ -19,13 +19,13 @@
 
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
-| Mac · Apple 芯片 | 0.6.0（19） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.19-macos-arm64/rs-building-preview-0.6.0-19-macOS-arm64.dmg) |
+| Mac · Apple 芯片 | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-macos-arm64/Scenalier-0.7.0-24-macOS-arm64.dmg) |
 | Windows x64 | 0.6.0（19） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.19-windows-x64/rs-building-preview-0.6.0-19-Windows-x64.exe) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
 
-- Mac · Apple 芯片：`7b4c604daeff21971c243f1776f3f06ff230358e8b8e011277b29195f7a84b49`
+- Mac · Apple 芯片：`1a76b7cac05aee14a2c81ae04ab0e89a691da84dba34c8e3b1b010182dd41965`
 - Windows x64：`e7b407005e8a3dc014883499831861d3de7b90e9eaeb72f1327fda7840d45132`
 
 </details>
