@@ -21,18 +21,26 @@
 |---|---|---|
 | Mac · Apple 芯片 | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-macos-arm64/Scenalier-0.7.0-24-macOS-arm64.dmg) |
 | Windows x64 | 0.6.0（19） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.19-windows-x64/rs-building-preview-0.6.0-19-Windows-x64.exe) |
+| Rhino 8 · Mac Apple 芯片 <!-- release-edition --> | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-rhino-8-macos-arm64/Scenalier-Rhino-0.7.0-24-macOS.zip) |
+| Rhino 8 · Windows x64 <!-- release-edition --> | 0.7.0（24） · 待实机验收 | 暂未发布 |
+| UE 5.4 · Windows x64 <!-- release-edition --> | 0.7.0 · 待编译验收 | 暂未发布 |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
 
 - Mac · Apple 芯片：`1a76b7cac05aee14a2c81ae04ab0e89a691da84dba34c8e3b1b010182dd41965`
 - Windows x64：`e7b407005e8a3dc014883499831861d3de7b90e9eaeb72f1327fda7840d45132`
+- Rhino 8 · Mac Apple 芯片：`cc47749605d1e4d11fab14fc28f0567469df79b7a37a3cf538c9cefe3c9db0eb` <!-- release-edition-sha256 -->
 
 </details>
 
 <!-- release-downloads:end -->
 
-Mac：macOS 14+／Apple 芯片，打开 DMG 后把应用拖入 Applications。Windows：Windows 10+／x64，运行 EXE 安装。包内包含运行环境，不必克隆仓库或另装 Python。
+- Mac：macOS 14+／Apple 芯片，打开 DMG 后把 Scenalier 拖入 Applications。
+- Windows：Windows 10+／x64，运行 EXE 安装。
+- Rhino 8 Mac：保存并退出 Rhino，解压 ZIP，运行「安装 macOS.command」，重启后执行 RSStudio。
+
+安装包已包含运行环境；Rhino 版可直接安装使用。
 
 ## 开始搭建
 
@@ -40,23 +48,15 @@ Mac：macOS 14+／Apple 芯片，打开 DMG 后把应用拖入 Applications。Wi
 2. 左侧切换模块和场景实例；选模块会高亮全部引用，选实例会高亮实际选择集，右侧查看模块详情。
 3. 多选实例后按 **Ctrl+G 打组、Ctrl+Shift+G 解组**，Mac 使用 **⌘**；也可以点击实例编辑区的对应按钮。保存后，各版本读取同一套联动关系。
 
-## Rhino、UE 与示例
+## 示例
 
-Scenalier 的 Rhino 和 UE 版都是正式工具目标。原生扩展目录只是宿主加载形式；新版正式包由 Package 准备完整共同运行时，无需先装桌面版。
-
-| 运行版本 / 内容 | 当前状态与下载 | 怎样用 |
+| 配套资源 | 下载 | 使用 |
 |---|---|---|
-| Scenalier · Rhino 8 · Mac Apple 芯片 | **0.7.0 / build 24** · [下载正式 ZIP](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-rhino-8-macos-arm64/Scenalier-Rhino-0.7.0-24-macOS.zip) | 保存退出 Rhino，解压运行安装 macOS.command，再执行 RSStudio；已包含共同运行时 |
-| Scenalier · Rhino 8 · Windows | 新版已完成交叉编译与正式 ZIP 校验，待 Windows Rhino 实机验证，尚未发布；[此前 1.4.1 材料](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fplugins%2Frhino-v1.4.1/RS-Rhino-1.4.1.zip) 只作为旧版兼容入口 | 旧版需要匹配的旧运行时，不表示已具备本轮新的独立交付与登记流程 |
-| Scenalier · UE 5.4 · Windows | 当前正式工具包待实际 Windows UE 5.4 UAT 编译及宿主验证；[此前开发源码](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fplugins%2Fue-v0.3.1/RS-SceneDocument-0.3.1-UE5.4-source.zip) | 源码 ZIP 属于开发材料，不能直接当作新版正式工具安装 |
 | 山坡小屋 · FBX 示例 | [下载完整示例](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fexamples%2Fv0.6.0/RS-Hillside-House-v0.6.zip) | 完整解压到可写位置，打开其中的 .elproject 目录；原工程与历史保留 |
 | v0.6 数据合同 | [读取已公开的数据合同](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fexamples%2Fv0.6.0/SCENE_DATA_SPEC.md) | 数据格式保持兼容；本轮新登记、加载与新导出统一使用 FBX，不再生成或依赖 3dm 作者源 |
 
-Rhino Mac 正式 ZIP SHA-256：`cc47749605d1e4d11fab14fc28f0567469df79b7a37a3cf538c9cefe3c9db0eb`。
-
 独立版可导入外部 FBX、按槽关联 PNG 并预览确认。Rhino 可从选中几何／Block 登记、更新或新增变体；新模块先入库，再明确放置。模块删除会保护全部场景引用，可通过工程撤销恢复。`.elproject` 是完整目录工程，移动时带走整个目录，独立副本使用「另存为」。
 
-Windows 桌面下载表暂保留已发布的 0.6.0 / build 19；新的 0.7.0 / build 24 已完成交叉构建和安装包完整性检查，实际 Windows 安装启动尚未验证，保留为内部候选。当前先交付已验证的 Mac 版，旧 Windows 下载不冒充本轮改造。
 
 ## 更新
 
