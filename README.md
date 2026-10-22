@@ -18,8 +18,8 @@
 
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
-| Mac · Apple 芯片 | 0.4.4（1019） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.4-build.1019-macos-arm64/Meshpalier-0.4.4-1019-macOS-arm64.dmg) |
-| Windows x64 | 0.4.4（1019） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/meshpalier%2Fv0.4.4-build.1019-windows-x64/Meshpalier-0.4.4-1019-Windows-x64.exe) |
+| Mac · Apple 芯片 | 0.4.4（1019） | [下载安装包](https://github.com/EspalierLin/devtools-releases/releases/download/meshpalier%2Fv0.4.4-build.1019-macos-arm64/Meshpalier-0.4.4-1019-macOS-arm64.dmg) |
+| Windows x64 | 0.4.4（1019） | [下载安装包](https://github.com/EspalierLin/devtools-releases/releases/download/meshpalier%2Fv0.4.4-build.1019-windows-x64/Meshpalier-0.4.4-1019-Windows-x64.exe) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
@@ -52,4 +52,4 @@ Windows 在“设置 → 检查更新”中点击“更新并重启”，完成�
 
 旧版如果无法完成自动安装交接，手动运行本页当前安装器覆盖升级一次。升级保留原工程与账号；另存可创建独立工程副本。
 
-[返回工具目录](https://github.com/EspalierLin/ai-tool-releases)
+[返回工具目录](https://github.com/EspalierLin/devtools-releases)
