@@ -18,9 +18,9 @@
 
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
-| Mac · Apple 芯片 / Windows x64 · 本地 Skill / 网页 | 0.2.4（1094） | [下载 ZIP](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Flocal-web%2Fv0.2.4-build.1094-universal/imbalier-0.2.4-1094-Skill.zip) |
-| Mac · Apple 芯片 | 0.2.4（1097） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1097-macos-arm64/Imbalier-0.2.4-1097-macOS-arm64.dmg) |
-| Windows x64 | 0.2.4（1094） | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/imbalier%2Fv0.2.4-build.1094-windows-x64/Imbalier-0.2.4-1094-Windows-x64.exe) |
+| Mac · Apple 芯片 / Windows x64 · 本地 Skill / 网页 | 0.2.4（1094） | [下载 ZIP](https://github.com/EspalierLin/devtools-releases/releases/download/imbalier%2Flocal-web%2Fv0.2.4-build.1094-universal/imbalier-0.2.4-1094-Skill.zip) |
+| Mac · Apple 芯片 | 0.2.4（1097） | [下载安装包](https://github.com/EspalierLin/devtools-releases/releases/download/imbalier%2Fv0.2.4-build.1097-macos-arm64/Imbalier-0.2.4-1097-macOS-arm64.dmg) |
+| Windows x64 | 0.2.4（1094） | [下载安装包](https://github.com/EspalierLin/devtools-releases/releases/download/imbalier%2Fv0.2.4-build.1094-windows-x64/Imbalier-0.2.4-1094-Windows-x64.exe) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
@@ -48,7 +48,7 @@ Mac：macOS 14+／Apple 芯片，打开 DMG 后把应用拖入 Applications。Wi
 复制下面一段给能操作本机文件和命令的 AI。它先用你的语言介绍并询问是否安装，同意后才安装。网页在本机运行，不需要服务器。
 
 ```text
-Read https://raw.githubusercontent.com/EspalierLin/ai-tool-releases/refs/heads/imbalier/README.md. Reply in the language of our conversation. Explain Imbalier's local Skill and browser mode, supported downloads, local project ownership and account use, then ask whether I want to install it. Do not install, sign in or generate images before I agree. After I agree, follow this README's AI installation instructions for my operating system and AI host, verify the exact published archive, and report the actual result.
+Read https://raw.githubusercontent.com/EspalierLin/devtools-releases/refs/heads/imbalier/README.md. Reply in the language of our conversation. Explain Imbalier's local Skill and browser mode, supported downloads, local project ownership and account use, then ask whether I want to install it. Do not install, sign in or generate images before I agree. After I agree, follow this README's AI installation instructions for my operating system and AI host, verify the exact published archive, and report the actual result.
 ```
 
 <details>
@@ -69,4 +69,4 @@ Read https://raw.githubusercontent.com/EspalierLin/ai-tool-releases/refs/heads/i
 
 </details>
 
-[返回工具目录](https://github.com/EspalierLin/ai-tool-releases)
+[返回工具目录](https://github.com/EspalierLin/devtools-releases)
