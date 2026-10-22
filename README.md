@@ -19,11 +19,11 @@
 
 | 系统 / 组件 | 版本 | 下载 |
 |---|---|---|
-| Mac · Apple 芯片 | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-macos-arm64/Scenalier-0.7.0-24-macOS-arm64.dmg) |
-| Windows x64 | 0.6.0（19） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fv0.6.0-build.19-windows-x64/rs-building-preview-0.6.0-19-Windows-x64.exe) |
-| Rhino 8 · Mac Apple 芯片 <!-- release-edition --> | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-rhino-8-macos-arm64/Scenalier-Rhino-0.7.0-24-macOS.zip) |
-| Rhino 8 · Windows x64 <!-- release-edition --> | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-rhino-8-windows-x64/Scenalier-Rhino-0.7.0-24-Windows.zip) |
-| UE 5.4 · Windows x64 <!-- release-edition --> | 0.7.0（24） · 源码发行 | [下载 ZIP（需编译）](https://github.com/EspalierLin/ai-tool-releases/releases/download/scenalier%2Fv0.7.0-build.24-ue-5.4-windows-x64-source/Scenalier-UE-0.7.0-24-Windows-x64-source.zip) |
+| Mac · Apple 芯片 | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/devtools-releases/releases/download/scenalier%2Fv0.7.0-build.24-macos-arm64/Scenalier-0.7.0-24-macOS-arm64.dmg) |
+| Windows x64 | 0.6.0（19） · 预览版 | [下载安装包](https://github.com/EspalierLin/devtools-releases/releases/download/rs-building-preview%2Fv0.6.0-build.19-windows-x64/rs-building-preview-0.6.0-19-Windows-x64.exe) |
+| Rhino 8 · Mac Apple 芯片 <!-- release-edition --> | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/devtools-releases/releases/download/scenalier%2Fv0.7.0-build.24-rhino-8-macos-arm64/Scenalier-Rhino-0.7.0-24-macOS.zip) |
+| Rhino 8 · Windows x64 <!-- release-edition --> | 0.7.0（24） · 预览版 | [下载安装包](https://github.com/EspalierLin/devtools-releases/releases/download/scenalier%2Fv0.7.0-build.24-rhino-8-windows-x64/Scenalier-Rhino-0.7.0-24-Windows.zip) |
+| UE 5.4 · Windows x64 <!-- release-edition --> | 0.7.0（24） · 源码发行 | [下载 ZIP（需编译）](https://github.com/EspalierLin/devtools-releases/releases/download/scenalier%2Fv0.7.0-build.24-ue-5.4-windows-x64-source/Scenalier-UE-0.7.0-24-Windows-x64-source.zip) |
 
 <details>
 <summary>下载文件校验（SHA-256）</summary>
@@ -56,8 +56,8 @@
 
 | 配套资源 | 下载 | 使用 |
 |---|---|---|
-| 山坡小屋 · FBX 示例 | [下载完整示例](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fexamples%2Fv0.6.0/RS-Hillside-House-v0.6.zip) | 完整解压到可写位置，打开其中的 .elproject 目录；原工程与历史保留 |
-| v0.6 数据合同 | [读取已公开的数据合同](https://github.com/EspalierLin/ai-tool-releases/releases/download/rs-building-preview%2Fexamples%2Fv0.6.0/SCENE_DATA_SPEC.md) | 数据格式保持兼容；本轮新登记、加载与新导出统一使用 FBX，不再生成或依赖 3dm 作者源 |
+| 山坡小屋 · FBX 示例 | [下载完整示例](https://github.com/EspalierLin/devtools-releases/releases/download/rs-building-preview%2Fexamples%2Fv0.6.0/RS-Hillside-House-v0.6.zip) | 完整解压到可写位置，打开其中的 .elproject 目录；原工程与历史保留 |
+| v0.6 数据合同 | [读取已公开的数据合同](https://github.com/EspalierLin/devtools-releases/releases/download/rs-building-preview%2Fexamples%2Fv0.6.0/SCENE_DATA_SPEC.md) | 数据格式保持兼容；本轮新登记、加载与新导出统一使用 FBX，不再生成或依赖 3dm 作者源 |
 
 独立版可导入外部 FBX、按槽关联 PNG 并预览确认。Rhino 可从选中几何／Block 登记、更新或新增变体；新模块先入库，再明确放置。模块删除会保护全部场景引用，可通过工程撤销恢复。`.elproject` 是完整目录工程，移动时带走整个目录，独立副本使用「另存为」。
 
@@ -68,4 +68,4 @@
 
 Rhino／UE 版从本页选择对应目标的正式包分别安装，先保存并退出宿主；桌面更新不替换宿主版本。当前未提供的目标按表格标明。工程、账号与私有状态保存在程序外，更新保留它们。历史 rs-building-preview 地址继续提供同 UID 的兼容更新头。
 
-[查看全部工具](https://github.com/EspalierLin/ai-tool-releases)
+[查看全部工具](https://github.com/EspalierLin/devtools-releases)
